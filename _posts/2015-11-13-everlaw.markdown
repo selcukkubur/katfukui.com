@@ -1,0 +1,114 @@
+---
+layout: post
+title:  "Everlaw Redesign"
+date:   2015-11-13 12:37:36 -0800
+thumbnail: ../images/everlaw.png
+caption: "Product Design"
+tags: [Product Design, UI and UX, Visual]
+intro: "Everlaw is an ediscovery and litigation web-based platform used by law firms and attorneys. Users collaboratively analyze and organize a legal case's data with Everlaw's suite of tools. The end goal is a crafted narrative, ready to take to court."
+---
+{% include poststyles.md %}
+
+{{ color-wrapper-beige }}
+{{ writing }}
+## My Role
+I joined the Everlaw team as its first designer, ready to establish a product design process. What sets Everlaw apart from other products in the law technology realm is its focus on building the fastest, easiest to use software on the market. I wanted to make sure this goal was apparent in the aesthetics, user flows, and overall experience of using the product.
+
+### Design Leader
+I integrated user experience and research into the product creation process and lead design efforts, including a complete product redesign, visual rebranding, and mobile optimization.
+
+### Flow Check
+I went through the entire platform to make user flow and experience enhancements. For any new features, I made sure they fit in and made sense with the existing flow. I used either pen/paper wireframes or high-fidelity prototypes to convey my ideas.
+
+### Overall Scrappy Go-Getter
+As the only designer, if I wanted something done, I took the initiative to make it happen!
+{{ end-block }}
+{{ end-block }}
+
+{{ color-wrapper-white }}
+{{ writing }}
+## The Challenge
+I was brought on to solve Everlaw's original problem of a non-existent brand presence and outdated UI. But, parts of the product UX were clunky, and some features didn't feel fully developed. It was clear this wouldn't be just a reskinning problem.
+
+Thankfully, being at a small startup, I had the freedom to reframe the problem. With help from the team, I laid out the conceptual foundation first by asking, **What is Everlaw's <u>story</u>? What makes us different and better than familiar, safe choices?**
+
+I felt knowing this would establish the brand direction, as well as figure out where the product is headed. After researching with the product team, we established that our high-level challenge was:
+
+> Speed up the tedious data reviewing process by creating focused and personalized experiences centered around their work, starting with the product's Homepage.
+
+This goal served as guidance for bringing Everlaw on its way to becoming a robust ediscovery product.
+{{ end-block }}
+{{ end-block }}
+
+{{ color-wrapper-base }}
+{{ writing }}
+## User and Market Research
+I researched the current market by learning about the ediscovery process from my law-educated colleagues and talking to early adopters of the product. These are the insights I gained about our userbase—
+
+### Not Their Choice
+Law firms are the ones who pick which ediscovery product their employees use. The actual users doing the review work often don't have a say in their software. <mark>Thoughts: Empower this group to speak up and convince case leads to switch over permanently.</mark>
+
+### Not All Data is Equal
+Everlaw's hosted cases range from 1GB of data to 1TB. Average users of the 1TB case will probably have more data to keep track of than the former.<mark>Thoughts: The new homepage must still be easy and quick to sort through for data-intense cases.</mark>
+
+### Tunnel Vision Workflow
+When users log back into the product, they resume their work from where they last left off.
+
+### Balancing Act
+The reviewers' end goal is to craft a narrative to take to court. We should allow them to keep track of their thoughts and create
+
+### Speed > Everything
+Users just want to do things quickly. They're browsing through hundreds of pages a day to cull relevant information and need unobtrusive design.
+{{ end-block }}
+{{ end-block }}
+
+{{ full-image }}
+![Old homepage](/assets/everlaw-oldhp.jpg)
+{{ end-block }}
+
+{{ color-wrapper-white }}
+{{ writing }}
+## Adding Hierarchy
+The Homepage is where users land when they first log in and resume their work. All data and some review features live here. The problem with the original design was a lack of hierarchy or sense of priority, so I began my Homepage redesign by mapping out the incoming content.
+
+![Homepage Flow](/assets/everlaw-hpmap.png)
+
+### Tabs and Tables
+Based on analytics and feedback, most users resume their work where they last left off in a Search, Binder, or Assignment.
+
+My initial thoughts were to prioritize personal content because it would be most relevant to their work (Searches they've done, Arguments they've created). I decided to try keeping only the most recent Searches and Assigned Binders on the main page in table form so you could take action on the first 4 items at once and scroll if need be.
+
+![Homepage Flow](/assets/everlaw-idea1.jpg)
+
+The above first iteration has three tabs—Recent content, StoryBuilder, and Tasks. Tabbed out further in 'My Searches' are Recent and Favorites. Yikes, pretty tab-heavy. It also includes personal review stats in the form of cards, such as 'Documents reviewed today' and 'Total review time' to show users their progress.
+
+### Don't assume behaviors
+My goal here was to chunk out the features by most frequently used, and show the most recent items of each feature. But, this doesn't work because I incorrectly assumed that all users most frequently use Searches and Binders. Upon analyzing the data, some users don't use Searches at all. Others are deep into StoryBuilder, which is tabbed out. Also, what is defined as 'Recent' in the table? At what point is content 'not recent'? Scrapped!
+{{ end-block }}
+{{ end-block }}
+
+{{ color-wrapper-white }}
+{{ writing }}
+## But maybe those cards are okay...
+After scrapping the first iteration, we found that the cards intended for personal review stats might be our content-separating solution. It chunks out each piece of data so it's easier to comprehend and interact with than a line in a table. We can color code them by Category with a top-border. We can sort and organize them quickly. The team was instantly hooked.
+
+### Everything is a card!
+For the next iteration, I turned every piece of content into a card, placed them in color-coded categories, and created a dashboard at the top with personal review stats and most recent cards. I thought by showing the most recent item of each category, it would allow users to access the last thing they worked on and still let them see all the features.
+
+![Homepage Flow](/assets/everlaw-idea2.jpg)
+
+### Clicking to reveal is tedious
+But, the sidescrolling carats proved to be frustrating to navigate, especially if you need to access the last of 50 cards in a category. We considered showing two rows of cards in each category that also horizontal scroll, but the act of clicking through is tedious. We also thought about an infinite 'Load More' that reveals more rows, but realized that would vertically bloat the page and possibly push the other categories into oblivion.
+
+While there is hierarchy amongst the categories (Searches are above Binders, etc), there isn't much within them. Cards within each category are still displayed in a row that isn't conducive for 'tunnel vision' workflows.
+
+### Sidebar Nav
+
+![Homepage Flow](/assets/everlaw-idea3.jpg)
+
+I disliked the previous layout because there's no set place for "Favorited" items to live, which is a feature we aimed to push since our users tend to work on one card at a time. I tried a sidebar navigation homepage that defaults to the most recent cards you've accessed, with a tab dedicated to Favorites. While the sidebar approach looks much cleaner, I also tried defaulting to Favorites, but that still posed the same issues.
+
+
+In the end, we took out the personal review stats because it takes up too much vertical real estate that is so crucial for users to pick up right where they left. I originally wanted them there for personalization, but focusing on the right work is even more valuable and personal.
+{{ end-block }}
+{{ end-block }}

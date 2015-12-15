@@ -1,0 +1,185 @@
+/**
+ * Site header
+ */
+.site-header {
+  top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	padding: 0;
+	z-index: 100;
+}
+
+.nav {
+  @include j-center($max-width: 1600px);
+  padding-top: ms(0);
+  display: block;
+
+  ul.nav-right {
+    float: right;
+
+  	li {
+  		margin: 0 $rhythm;
+  		display: inline-block;
+  	}
+  }
+
+  .logo a, .contact a, .logo a:hover,
+  .contact a:hover, div a, div a:hover, img a {
+  	border: none;
+  }
+
+  .logo {
+  	background: url(../images/logok.svg) no-repeat 0 0;
+  	position: absolute;
+  	float: left;
+  	width: 35px;
+  	height: 35px;
+  	display: block;
+  	margin-left: ms(0);
+
+  	&:hover {
+      opacity: 0.6; }
+  }
+} /* nav */
+
+/* Full bleed sections with no extra padding */
+.full-bleed {
+	@include j-center($max_width: 1600px);
+	width: 100%;
+	@include j-cf();
+}
+
+/* For full-bleed sections with
+background colors and padding */
+.color-wrapper {
+	width: 100%;
+	@include j-cf();
+	padding: ms(4) 0;
+
+	@media (max-width: 500px) {
+		padding-top: ms(2);
+		margin-bottom: ms(2);
+	}
+}
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $gray;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+
+    ul {
+      margin-top: $rhythm;
+      list-style-type: none;
+    }
+
+    li.tag {
+    	display: inline-block;
+    	border: 1px solid $tag;
+    	padding: 10px 16px;
+      font-size: ms(0);
+      margin-right: ms(1);
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+    	@media(max-width: 500px) {
+    		margin: rhythm(0.25);
+    	}
+    }
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $rhythm;
+    font-family: $serif;
+
+    .full-bleed img {
+      max-width: 100%;
+    }
+}
+
+.post-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  //padding-bottom: ms(3);
+
+  img {
+    max-width: 700px;
+  }
+
+  > :last-child {
+      padding-bottom: 0;
+  }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  text-align: center;
+  padding: ms(3) 0;
+  height: 50px;
+  @include j-cf();
+}
+
+.social-media-list {
+  list-style: none;
+
+  li {
+    display: inline;
+
+    img {
+      vertical-align: middle; }
+
+    a {
+      padding-bottom: 0; }
+
+    &:hover {
+      opacity: 0.6; }
+  }
+}

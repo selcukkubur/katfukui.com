@@ -1,0 +1,49 @@
+h1, h2, h3, h4 {
+	display: inline-block;
+	font-family: $title-font;
+	font-size-adjust: 0.508;
+	font-weight: bold;
+	font-style: normal;
+	letter-spacing: $sans-serif-letter-spacing;
+}
+
+h2, h3, h4 {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 4.7vw;
+	border-bottom: 4px solid $text-color;
+
+	@media (min-width: 1601px) {
+			font-size: 80px;
+		}
+
+	a, a:visited {
+		border: none;
+		color: $text-color;
+	}
+	a:hover {
+		border: none;
+		color: $orange;
+	}
+
+	@media (max-width: 500px) {
+    font-size: 2rem;
+  }
+} /* Index project list titles */
+
+h2 {
+	font-size: ms(2);
+}
+
+h3 {
+	font-size: ms(1)
+}
+
+h4 {
+	font-family: $serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: ms(0);
+}

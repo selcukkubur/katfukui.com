@@ -1,0 +1,39 @@
+// Modular Scale
+$ms-base: 1rem;
+$ms-ratio: $golden;
+
+$base-font-family: "Apercu Regular", sans-serif;
+$title-font: "Apercu Bold", sans-serif;
+$serif: 'PT Serif', serif;
+$base-font-size:   22px;
+$base-font-weight: 300;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+$sans-serif-letter-spacing: -0.025em;
+$serif-letter-spacing: -0.01em;
+
+$spacing-unit:     30px;
+$rhythm:           ms(2);
+
+$text-color:       #403B33;
+$background-color: #fcf9f1;
+$brand-color:      #D3643B;
+
+$orange:           #D3643B;
+$tag:              #94C7B6;
+$white:            #ffffff;
+$beige:            darken($background-color,6%);
+$gray:             #eeeeee;
+$darkgray:         darken($gray, 25%);
+$twitter:          #55acee;
+$instagram:        #3f729b;
+$dribbble:         #ea4c89;
+
+// Misc
+$transition: all 0.2s ease-in-out 0s;
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;

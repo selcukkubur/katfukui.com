@@ -1,0 +1,60 @@
+/* About Page
+   ----------------------------- */
+.about {
+
+	.about-left {
+		@include j-column(0.4);
+	}
+
+	.about-right {
+		@include j-column(0.52);
+		float: right;
+	}
+
+	.about-hacky {
+		margin-right: 0;
+	}
+
+	.about-holla {
+		background: url(../images/feed1.jpg);
+		background-size: cover;
+		height: 640px;
+
+		@media (max-width: 700px) {
+			width:100%;
+			height: 400px;
+		}
+	}
+
+	.about-holla2 {
+		background: url(../images/feed2.jpg) center center;
+		background-size: cover;
+		height: 400px;
+		margin-top: ms(3);
+
+		@media (max-width: 700px) {
+			width:100%;
+		}
+	}
+
+	.about-text {
+		padding: ms(3) 8% 0 0;
+		box-sizing: border-box;
+	}/* About me text */
+
+	.about-contact {
+		font-family: $base-font-family;
+		margin-top: ms(3);
+		padding-right: 6%;
+		text-align: right;
+		li {
+			display: block;
+			margin: 0 0 ms(-1) 0;
+		}
+	} /* Links and site info */
+
+	@media (max-width: 500px) {
+		.one-third { width:100%; }
+		.two-thirds { width:100%; }
+	}
+}

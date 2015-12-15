@@ -1,0 +1,14 @@
+<head>
+  {% include head.html %}
+  <script type="text/javascript">
+	    var userFeed = new Instafeed({
+	        get: 'user',
+	        userId: 864199,
+	        accessToken: '864199.467ede5.3d119fad1e04407c96f9e6c6cbf9b71d',
+	        limit: 8,
+	        resolution: 'standard_resolution',
+	        template: '<div class="insta"><a href="{{link}}"><img src="{{image}}" width="100%" /></a></div>'
+	    });
+	    userFeed.run();
+		</script>
+</head>

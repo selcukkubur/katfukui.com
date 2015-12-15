@@ -1,0 +1,56 @@
+/**
+ * Index page
+ */
+
+.project {
+	@include j-cf();
+	a, a:visited {
+		border: none;
+		j-column: $text-color;
+	}
+	a:hover {
+		border: none;
+		j-column: $orange;
+	}
+
+	.photo {
+		@include j-column(5/8);
+		& img {
+			max-width: 100%;
+		}
+		@media (max-width: 1200px) {
+			@include j-column(3/4);
+		}
+		@media (max-width: 500px) {
+    	width: 100%;
+  	}
+	}
+	.photo-right {
+		@extend .photo;
+		z-index: -10;
+		float: right;
+	}
+	.photo-title, .photo-title-left {
+		@include j-column(5/8);
+		margin-top: 20%;
+		@media (max-width: 500px) {
+    	display: none;
+  	}
+	}
+	.photo-title {
+		float: right;
+		text-align: right;
+		margin-left: -27%;
+		@media (max-width: 1200px) {
+			margin-left: -40%;
+		}
+	}
+	.photo-title-left {
+		position: relative;
+		z-index: 10;
+		margin-right: -27%;
+		@media (max-width: 1200px) {
+			margin-right: -40%;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+
+  <section class="post-list">
+    {% for post in site.posts %}
+      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+      {% if thecycle == 'odd' %}
+        <section class="project">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="photo">
+              <img src="{{ post.thumbnail }}" width="100%" />
+            </div>
+            <div class="photo-title">
+              <h1>{{ post.title }}</h1>
+              <p class="caption-right">{{ post.caption }}</p>
+            </div>
+          </a>
+        </section>
+      {% else %}
+        <section class="project">
+          <a class="post-link" href="{{ post.url | prepend: site.basurl }}">
+            <div class="photo-title-left">
+              <h1>{{ post.title }}</h1>
+              <p class="caption">{{ post.caption }}</p>
+            </div>
+            <div class="photo-right">
+              <img src="{{ post.thumbnail }}" width="100%" />	
+            </div>
+          </a>
+        </section>
+      {% endif %}
+    {% endfor %}
+
+</div>

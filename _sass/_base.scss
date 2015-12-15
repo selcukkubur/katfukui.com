@@ -1,0 +1,201 @@
+/**
+ * Reset some basic elements
+ */
+html, body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+html {
+	font-kerning: none; // Set the default for kerning
+	font-synthesis: none; // Don't allow the font to create sythetic bold/italic
+	text-rendering: optimizeLegibility; // Improve kerning pairs. Caution: Webkit gets funny with this sometimes
+	-webkit-font-smoothing: antialiased;
+}
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
+  padding-top: ms(3);
+  letter-spacing: $sans-serif-letter-spacing;
+}
+
+* > p:last-child {
+  margin-bottom: 0;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm,
+.wrapper {
+    margin-bottom: $rhythm;
+}
+
+section {
+  margin-bottom: $rhythm;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: ms(0);
+}
+
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $rhythm;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+em {
+  font-family: $serif;
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: $brand-color;
+    }
+
+    &:hover {
+        color: $brand-color;
+    }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $orange;
+    font-size: ms(1);
+    font-style: italic;
+    font-family: $serif;
+    margin: ms(3) ms(2);
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $gray;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  @include j-center($max_width: 1600px, $pad: 6%);
+  @include j-cf();
+	@media (max-width: 500px) {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+
+        path {
+            fill: $text-color;
+        }
+    }
+}
