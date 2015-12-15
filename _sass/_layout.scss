@@ -172,6 +172,7 @@ background colors and padding */
 
   li {
     display: inline;
+    margin: 0 ms(-1);
 
     img {
       vertical-align: middle; }
@@ -182,4 +183,8 @@ background colors and padding */
     &:hover {
       opacity: 0.6; }
   }
+}
+
+ul.social-media-list {
+  margin-left: 0;
 }

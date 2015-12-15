@@ -4,6 +4,12 @@ layout: default
 
 <div class="wrapper">
 
+  <section class="description center">
+    Kat Fukui<br />
+    {{ site.description }}
+    {% include social-media.html %}
+  </section>
+
   <section class="post-list">
     {% for post in site.posts %}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -27,7 +33,7 @@ layout: default
               <p class="caption">{{ post.caption }}</p>
             </div>
             <div class="photo-right">
-              <img src="{{ post.thumbnail }}" width="100%" />	
+              <img src="{{ post.thumbnail }}" width="100%" />
             </div>
           </a>
         </section>

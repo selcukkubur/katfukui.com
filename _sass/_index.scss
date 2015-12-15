@@ -2,6 +2,10 @@
  * Index page
  */
 
+.description {
+		font-size: ms(2);
+}
+
 .project {
 	@include j-cf();
 	a, a:visited {

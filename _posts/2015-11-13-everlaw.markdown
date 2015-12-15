@@ -90,7 +90,7 @@ My goal here was to chunk out the features by most frequently used, and show the
 {{ color-wrapper-white }}
 {{ writing }}
 ## But maybe those cards are okay...
-After scrapping the first iteration, we found that the cards intended for personal review stats might be our content-separating solution. It chunks out each piece of data so it's easier to comprehend and interact with than a line in a table. We can color code them by Category with a top-border. We can sort and organize them quickly. The team was instantly hooked.
+After scrapping the first iteration, we found that the cards intended for personal review stats might be our content-separating solution. It chunks out each piece of data so it's easier to comprehend and interact with than a line in a table. We can color-code them by Category with a top-border. We can sort and organize them quickly. We can stack them. The team was instantly hooked.
 
 ### Everything is a card!
 For the next iteration, I turned every piece of content into a card, placed them in color-coded categories, and created a dashboard at the top with personal review stats and most recent cards. I thought by showing the most recent item of each category, it would allow users to access the last thing they worked on and still let them see all the features.
@@ -139,19 +139,39 @@ An Everlaw colleague suggested turning the first all-cards layout on its side to
 By putting cards in vertical columns, Favorites is easily accessible at the most-left. You get a **micro view** by interacting with the most recent cards at the top of each column, and a **macro view** where you can reach all cards across all categories quickly.
 
 ### Persistent Filter
-Because the amount of cards on each homepage varies, we added a persistent filter box to quickly find any card.
+Because the amount of cards on each homepage varies, we added a persistent filter box to quickly find any card. The devs made sure this part was snappy and fast. This gif is in real-time:
 
 ![Homepage Filter](/assets/everlaw-filter.gif)
 
-In the end, we took out the personal review stats because it takes up too much vertical real estate that is so crucial for users to pick up right where they left. I originally wanted them there for personalization, but focusing on the right work is even more valuable and personal.
+### Expanded View
+To accommodate long columns of cards, we conceived an "expanded view" that hides other columns and alphabetizes the cards. This is helpful for Admins who often keep track of dozens of Binders and Assignments cards.
 
-## Takeaways
+![Homepage Filter](/assets/everlaw-expand.gif)
+
+In the end, we took out the personal review stats because it took up too much vertical real estate. I originally wanted stats for personalization, but focusing on user's content is even more valuable and personal.
+{{ end-block }}
+{{ end-block }}
+
+{{ full-image }}
+![UI Kit](/assets/everlaw-ui.png)
+{{ end-block }}
+
+{{ color-wrapper-white }}
+{{ writing }}
+## Retrospectives
 I learned a lot about shipping a product that affects every single one of your users and can positively impact their work.
+
+### Beginner's Mind
+When I first began working, I was afraid that I would insult our users by designing without having a law background. But because I didn't have any biases on what a law product should behave and look, I worked extra hard on user research.
 
 ### Really understand your user
 See how the product fits into your user's workflow. What are all access points back into the product?
 
-### Speed trumps all
-What good are pretty transitions and Dribbble-worthy UI if the product is too slow? 
+### Don't compromise speed
+What good are pretty transitions and Dribbble-worthy UI if the product is too slow? This should apply to all product design, not just data-complex ones.
 {{ end-block }}
+{{ end-block }}
+
+{{ full-image }}
+![UI Kit](/assets/everlaw-compare.png)
 {{ end-block }}
