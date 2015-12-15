@@ -102,13 +102,56 @@ But, the sidescrolling carats proved to be frustrating to navigate, especially i
 
 While there is hierarchy amongst the categories (Searches are above Binders, etc), there isn't much within them. Cards within each category are still displayed in a row that isn't conducive for 'tunnel vision' workflows.
 
-### Sidebar Nav
+## Sidebar Nav
 
-![Homepage Flow](/assets/everlaw-idea3.jpg)
+![Sidebar Nav](/assets/everlaw-idea3.jpg)
 
-I disliked the previous layout because there's no set place for "Favorited" items to live, which is a feature we aimed to push since our users tend to work on one card at a time. I tried a sidebar navigation homepage that defaults to the most recent cards you've accessed, with a tab dedicated to Favorites. While the sidebar approach looks much cleaner, I also tried defaulting to Favorites, but that still posed the same issues.
+I disliked the previous layout because there's no set place for "Favorited" items to live, which is a feature we aimed to push since our users tend to work on one card at a time. I tried a sidebar navigation homepage that defaults to the most recent cards you've accessed, with a tab dedicated to Favorites.
 
+### Too many clicks deep
+While the sidebar approach looks much cleaner, the Search, Binders, and StoryBuilder features are still pushed a few clicks down. This lag can make all the difference when a user has a piece of the story fresh in their mind and needs to access a card layers in. I also tried defaulting to Favorites, but that still posed the same issues.
+{{ end-block }}
+{{ end-block }}
+
+{{ color-wrapper-base }}
+{{ writing }}
+## Make 'Favorites' the star
+So, it was clear we needed balance between focusing in on the most recent card and quickly accessing other cards and features when inspiration calls. After playing around with prototypes for days that the devs created, we found that your most recent cards will not be your resuming point in your workflow.
+
+>Most recent 	&#8800; Most important
+
+With this in mind, we decided that the Favorites function needs to be at the top of the hierarchy. Recent cards and all cards are steps lower, and all Features should be easily accessible no matter what you're doing in the homepage.
+
+![Homepage Hierarchy](/assets/everlaw-cards.png)
+
+An Everlaw colleague suggested turning the first all-cards layout on its side to achieve this. As silly as it sounded, I tried it and it fit quite well with our updated Hierarchy Map. We used this as the basis for the final product. No idea is too weird or 'stupid' to try!
+
+{{ end-block }}
+{{ end-block }}
+
+{{ full-image }}
+![Homepage Hierarchy](/assets/everlaw-screen.png)
+{{ end-block }}
+
+{{ color-wrapper-base }}
+{{ writing }}
+## Micro and Macro
+By putting cards in vertical columns, Favorites is easily accessible at the most-left. You get a **micro view** by interacting with the most recent cards at the top of each column, and a **macro view** where you can reach all cards across all categories quickly.
+
+### Persistent Filter
+Because the amount of cards on each homepage varies, we added a persistent filter box to quickly find any card.
+
+![Homepage Filter](/assets/everlaw-filter.gif)
 
 In the end, we took out the personal review stats because it takes up too much vertical real estate that is so crucial for users to pick up right where they left. I originally wanted them there for personalization, but focusing on the right work is even more valuable and personal.
+
+## Takeaways
+I learned a lot about shipping a product that affects every single one of your users and can positively impact their work.
+
+### Really understand your user
+See how the product fits into your user's workflow. What are all access points back into the product?
+
+### Speed trumps all
+What good are pretty transitions and Dribbble-worthy UI if the product is too slow? 
 {{ end-block }}
 {{ end-block }}
