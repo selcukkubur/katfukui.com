@@ -6,55 +6,73 @@
 		font-size: ms(2);
 }
 
-.project {
+.work {
 	@include j-cf();
+	margin-left: 0;
+	list-style: none;
+
+
 	a, a:visited {
 		border: none;
-		j-column: $text-color;
-	}
-	a:hover {
-		border: none;
-		j-column: $orange;
+		color: $text-color;
 	}
 
-	.photo {
-		@include j-column(5/8);
-		& img {
-			max-width: 100%;
+	a:hover {
+		border: none;
+		color: $orange;
+	}
+
+	.work-thumb {
+		position: relative;
+		margin-bottom: ms(3);
+		height: 75vh;
+		max-height: 760px;
+		overflow: hidden;
+		@include j-column(1/2); //for all thumbs 4+
+
+		&:nth-child(1) {
+			@include j-column(8/8);
+
+			img {
+				width: 100%;
+			}
 		}
-		@media (max-width: 1200px) {
-			@include j-column(3/4);
+
+		&:nth-child(2) {
+			@include j-column(5/8);
 		}
+
+		&:nth-child(3) {
+			@include j-column(3/8);
+
+			img {
+				left: -50%;
+			}
+		}
+
+		img {
+			height: 100%;
+			width: auto;
+			max-width: none;
+			z-index: 0;
+			position: absolute;
+		}
+
+		span {
+			@include j-column(5/8);
+			z-index: 1000;
+			position: absolute;
+			bottom: 0;
+			margin-top: $rhythm;
+
+			@media (max-width: 500px) {
+	    	display: none;
+	  	}
+		}
+
 		@media (max-width: 500px) {
     	width: 100%;
+			height: 400px;
   	}
-	}
-	.photo-right {
-		@extend .photo;
-		z-index: -10;
-		float: right;
-	}
-	.photo-title, .photo-title-left {
-		@include j-column(5/8);
-		margin-top: 20%;
-		@media (max-width: 500px) {
-    	display: none;
-  	}
-	}
-	.photo-title {
-		float: right;
-		text-align: right;
-		margin-left: -27%;
-		@media (max-width: 1200px) {
-			margin-left: -40%;
-		}
-	}
-	.photo-title-left {
-		position: relative;
-		z-index: 10;
-		margin-right: -27%;
-		@media (max-width: 1200px) {
-			margin-right: -40%;
-		}
-	}
+	}/* work-thumb */
 }
