@@ -5,7 +5,7 @@ layout: default
 <div class="wrapper">
 
   <section class="description center">
-    Kat Fukui<br />
+    <span class="bold">Kat Fukui</span><br />
     {{ site.description }}
     {% include social-media.html %}
   </section>
@@ -16,10 +16,11 @@ layout: default
         <li class="work-thumb">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             <span>
-              <h1>{{ post.title }}</h1>
-              <!-- <p class="work-caption">{{ post.caption }}</p> -->
+              <h2>{{ post.title }}</h2>
             </span>
-            <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+
+              <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+
           </a>
         </li>
       {% endfor %}

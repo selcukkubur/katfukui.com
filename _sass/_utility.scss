@@ -71,3 +71,7 @@ mark {
 	color: $text-color;
 	@include j-cf();
 }
+
+.bold {
+	font-family: $title-font;
+}

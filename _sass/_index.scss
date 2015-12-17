@@ -17,16 +17,16 @@
 		color: $text-color;
 	}
 
-	a:hover {
-		border: none;
-		color: $orange;
-	}
+	// a:hover {
+	// 	border: none;
+	// 	color: $orange;
+	// }
 
 	.work-thumb {
 		position: relative;
 		margin-bottom: ms(3);
-		height: 75vh;
-		max-height: 760px;
+		height: 70vh;
+		max-height: 700px;
 		overflow: hidden;
 		@include j-column(1/2); //for all thumbs 4+
 
@@ -34,7 +34,7 @@
 			@include j-column(8/8);
 
 			img {
-				width: 100%;
+				height: auto;
 			}
 		}
 
@@ -44,26 +44,34 @@
 
 		&:nth-child(3) {
 			@include j-column(3/8);
+		}
 
-			img {
-				left: -50%;
-			}
+		.img-wrapper {
+			position: absolute;
+			width: 100%;
+			text-align: center;
 		}
 
 		img {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
 			height: 100%;
 			width: auto;
 			max-width: none;
 			z-index: 0;
-			position: absolute;
 		}
 
 		span {
-			@include j-column(5/8);
 			z-index: 1000;
 			position: absolute;
 			bottom: 0;
-			margin-top: $rhythm;
+			background-color: yellow;
+			padding: 0 $rhythm;
+
+			h2 {
+				margin-bottom: 0;
+			}
 
 			@media (max-width: 500px) {
 	    	display: none;
