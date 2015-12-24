@@ -4,9 +4,9 @@ layout: default
 
 <div class="wrapper">
 
-  <section class="description center">
-    <span class="bold">Kat Fukui</span><br />
-    {{ site.description }}
+  <section class="center">
+    <div class="description-title bold">Kat Fukui</div>
+    <div class="description">{{ site.description }}</div>
     {% include social-media.html %}
   </section>
 
@@ -14,14 +14,16 @@ layout: default
     <ul class="work">
       {% for post in site.posts %}
         <li class="work-thumb">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            <span>
-              <h2>{{ post.title }}</h2>
-            </span>
-
+          <figure class="work-effect">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
               <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
 
-          </a>
+              <figcaption>
+                <h2>{{ post.title }}</h2>
+                <p class="post-caption">{{ post.caption }}</p>
+              </figcaption>
+            </a>
+          </figure>
         </li>
       {% endfor %}
     </ul>

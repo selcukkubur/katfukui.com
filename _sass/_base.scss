@@ -66,6 +66,7 @@ figure > img {
 
 figcaption {
     font-size: $small-font-size;
+    box-sizing: border-box;
 }
 
 /**
@@ -99,16 +100,17 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
-    text-decoration: none;
+  color: $brand-color;
+  text-decoration: none;
 
-    &:visited {
-        color: $brand-color;
-    }
+  &:visited {
+      color: $brand-color;
+  }
 
-    &:hover {
-        color: $brand-color;
-    }
+  &:hover {
+      color: $text-color;
+      background-color: yellow;
+  }
 }
 
 
@@ -169,20 +171,6 @@ pre {
   }
 }
 
-
-/**
- * Clearfix
- */
-%clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-
 /**
  * Icons
  */
@@ -198,4 +186,38 @@ pre {
             fill: $text-color;
         }
     }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  text-align: center;
+  padding: ms(3) 0;
+  height: 50px;
+  @include j-cf();
+}
+
+.social-media-list {
+  list-style: none;
+
+  li {
+    display: inline;
+    margin: 0 ms(-1);
+
+    img {
+      vertical-align: middle; }
+
+    a {
+      padding-bottom: 0; }
+
+    &:hover {
+      opacity: 0.6;
+      background-color: none;
+     }
+  }
+}
+
+ul.social-media-list {
+  margin-left: 0;
 }

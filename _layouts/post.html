@@ -3,14 +3,19 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header center">
-    <h1 itemprop="name headline">{{ page.title }}</h1>
-    <ul>
-      {% for tag in page.tags %}
-        <li class="tag">{{ tag }}</li>
-      {% endfor %}
-    </ul>
+  <header class="post-header">
+    <div class="post-title center">
+      <h1 itemprop="headline">{{ page.title }}</h1>
+    </div>
     <div class="post-wrapper">
+      <ul>
+        {% for meta in page.meta %}
+          <li class="post-meta">
+            <span class="post-meta-title bold">{{ meta[0] }}</span>
+            <br />{{ meta[1] }}
+          </li>
+        {% endfor %}
+      </ul>
       {{  page.intro }}
     </div>
   </header>
