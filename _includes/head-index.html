@@ -1,0 +1,18 @@
+<head>
+  {% include head.html %}
+  <script type="text/javascript">
+		$.jribbble.setToken('554ea487ebf5d7451970afed8c7e652de4c8cf3cf9f4cd56e77ed5ee41d76976');
+
+		$(document).ready(function getDribbbleShots() {
+		  $.jribbble.users('katfukui').shots({per_page: 3}).then(function(shots) {
+	      var html = [];
+	      shots.forEach(function(shot) {
+          html.push('<div class="shot"><a href="' + shot.html_url + '" target="_blank">');
+          html.push('<img class="shot-image" src="' + shot.images.normal + '" ');
+          html.push('alt="' + shot.title + '"></a></div>');
+	    });
+	    $('.dribbble-feed').html(html.join(''));
+			});
+		});
+	</script>
+</head>
