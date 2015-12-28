@@ -31,5 +31,13 @@
 {% endcapture %}
 
 {% capture full-image %}
-<div class="full-bleed" markdown="1">
+<div class="full-bleed-image" markdown="1">
+{% endcapture %}
+
+{% capture midsize-image %}
+<div class="midsize-image" markdown="1">
+{% endcapture %}
+
+{% capture wrapper-900 %}
+<div class="post-wrapper-900" markdown="1">
 {% endcapture %}

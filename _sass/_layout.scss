@@ -63,11 +63,6 @@
   }
 }
 
-// .post-meta {
-//     font-size: $small-font-size;
-//     color: $gray;
-// }
-
 .post-link {
     display: block;
     font-size: 24px;
@@ -113,7 +108,6 @@
 }
 
 .post-content {
-  margin-bottom: $rhythm-more;
   font-family: $serif;
 
   .full-bleed img {
@@ -127,6 +121,12 @@
 
   img {
     max-width: 700px;
+    width: 100%;
+    margin: $rhythm 0;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
   }
 
   > :last-child {
@@ -134,11 +134,34 @@
   }
 }
 
+.post-wrapper-900 {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 /* Full bleed sections with no extra padding */
 .full-bleed {
 	@include j-center($max_width: 1600px);
 	width: 100%;
 	@include j-cf();
+}
+
+/* Post image styles */
+.full-bleed-image {
+  img {
+    width: 100%;
+  }
+}
+
+.midsize-image {
+  max-width: 1200px;
+  background: inherit;
+  margin: $rhythm-more auto;
+  text-align: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 /* For full-bleed sections with

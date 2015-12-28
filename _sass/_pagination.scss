@@ -1,7 +1,7 @@
 .paginate {
 	@include j-cf();
-	border-top: 1px solid $darkgray;
-	border-bottom: 1px solid $darkgray;
+	border-top: 1px solid $midgray;
+	border-bottom: 1px solid $midgray;
 }
 
 .paginate-left,
@@ -35,8 +35,8 @@ a.paginate-home:hover {
 	@include j-span(1/9);
 	text-align: center;
 	margin: 0 -1px;
-	border-left: 1px solid $darkgray;
-	border-right: 1px solid $darkgray;
+	border-left: 1px solid $midgray;
+	border-right: 1px solid $midgray;
 
 	@media (max-width: 588px) {
 		width: 20%;
