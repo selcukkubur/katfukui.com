@@ -15,9 +15,12 @@ layout: index
       {% for post in site.posts %}
         <li class="work-thumb">
           <figure class="work-effect">
+            {% if post.external_url %}
+            <a class="post-link" href="{{ post.external_url }}">
+            {% else %}
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            {% endif %}
               <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
-
               <figcaption>
                 <h2>{{ post.title }}</h2>
                 <p class="post-caption">{{ post.caption }}</p>
