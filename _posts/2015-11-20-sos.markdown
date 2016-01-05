@@ -18,17 +18,17 @@ Low wages and job insecurity affected by millions in the USA is slowly being add
 >First-person stories have the strongest effect on bringing attention to the wealth disparity.
 
 Public participation and organization is crucial to closing the wage gap and improving benefits for workers in fast food, retail, domestic, agricultural, and transportation sectors. Sharing personal, moving stories is proven to be a strong way to encourage activism and create positive social impact.
-{{ end-block }}
-{{ midsize-image }}
+{{ end_block }}
+{{ midsize_image }}
 ![SoS](/assets/sos-logo.jpg)
-{{ end-block }}
+{{ end_block }}
 {{ writing }}
 ## Our Goal
 With a diverse team of designers, engineers, academics, and activists, Stories of Solidarity's objective was to create a tool to encourage grassroots communication between precarious workers and organizers.
-{{ end-block }}
-{{ end-block }}
+{{ end_block }}
+{{ end_block }}
 
-{{ color-wrapper-white }}
+{{ wrapper_white }}
 {{ writing }}
 ## Hackathon Hatched
 I participated in a hackathon held by UC Davis professors Glenda and Jesse Drew with the theme: "Social media for insecure labor." We aimed to develop a way to connect precarious workers in America based off Jesse's research.
@@ -46,40 +46,40 @@ After a coffee-fuled night, we presented an anonymous story-sharing platform for
 ![SoS](/assets/sos-hack.png)
 
 The prototype and concept was well-recieved. Not too long after, a few team members started developing the research idea into an actual product. We met with labor organizations, potential funders, data visualization researchers, developers, and design firms to bring our idea to realization.
-{{ end-block }}
-{{ end-block }}
+{{ end_block }}
+{{ end_block }}
 
-{{ full-image }}
+{{ full_image }}
 ![SoS](/assets/sos-platforms.jpg)
-{{ end-block }}
+{{ end_block }}
 
-{{ color-wrapper-base }}
+{{ wrapper_base }}
 {{ writing }}
 ## Focus On the Stories
-{{ end-block }}
-{{ midsize-image }}
+{{ end_block }}
+{{ midsize_image }}
 ![Content Flow](/assets/sos-content.jpg)
-{{ end-block }}
-{{ end-block }}
+{{ end_block }}
+{{ end_block }}
 
-{{ color-wrapper-beige }}
+{{ wrapper_beige }}
 {{ writing }}
 ## Go to the people!
 We took a beta of the app to AFL-CIO, a national labor convention, and talked to both precarious workers and labor organizers. They told us their stories and let us post them on the map and feed.
 
 Many people stopped by our testing booth via word of mouth. Everyone has a story to tell and is eager to share, as long as it's convenient and quick to do so. We were surprised to find that a lot of users didn't mind using their real names.
-{{ end-block }}
-{{ midsize-image }}
+{{ end_block }}
+{{ midsize_image }}
 ![People](/assets/sos-people.jpg)
-{{ end-block }}
-{{ end-block }}
+{{ end_block }}
+{{ end_block }}
 
-{{ color-wrapper-base }}
+{{ wrapper_base }}
 {{ writing }}
 ## Cross-platform Optimization
 Blargh blargh
-{{ end-block }}
-{{ midsize-image }}
+{{ end_block }}
+{{ midsize_image }}
 ![Updated Nav](/assets/sos-topnav.png)
-{{ end-block }}
-{{ end-block }}
+{{ end_block }}
+{{ end_block }}

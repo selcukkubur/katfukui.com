@@ -2,7 +2,7 @@
 <div class="post-wrapper" markdown="1">
 {% endcapture %}
 
-{% capture end-block %}
+{% capture end_block %}
 </div>
 {% endcapture %}
 
@@ -10,7 +10,7 @@
 <section markdown="1">
 {% endcapture %}
 
-{% capture end-section %}
+{% capture end_section %}
 </section>
 {% endcapture %}
 
@@ -18,11 +18,11 @@
 <div class="color-wrapper base-bg" markdown="1">
 {% endcapture %}
 
-{% capture wrapwhite %}
+{% capture wrapper_white %}
 <div class="color-wrapper white" markdown="1">
 {% endcapture %}
 
-{% capture wrapgray %}
+{% capture wrapper_gray %}
 <div class="color-wrapper gray" markdown="1">
 {% endcapture %}
 
@@ -30,14 +30,14 @@
 <div class="color-wrapper beige" markdown="1">
 {% endcapture %}
 
-{% capture full-image %}
+{% capture full_image %}
 <div class="full-bleed-image" markdown="1">
 {% endcapture %}
 
-{% capture midsize-image %}
+{% capture midsize_image %}
 <div class="midsize-image" markdown="1">
 {% endcapture %}
 
-{% capture wrapper-900 %}
+{% capture wrapper_900 %}
 <div class="post-wrapper-900" markdown="1">
 {% endcapture %}
