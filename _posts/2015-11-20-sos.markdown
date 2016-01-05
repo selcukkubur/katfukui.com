@@ -10,7 +10,7 @@ intro: "SoS is a non-profit, social media platform that encourages workers in th
 ---
 {% include poststyles.md %}
 
-<div class="color-wrapper beige" markdown="1">
+{{ color-wrapper-beige }}
 {{ writing }}
 ## Why precarious labor?
 Low wages and job insecurity affected by millions in the USA is slowly being addressed in political and economic change. But it's a slow process because the working poor often do not have the resources to organize, especially because of the digital divide.
@@ -26,7 +26,7 @@ Public participation and organization is crucial to closing the wage gap and imp
 ## Our Goal
 With a diverse team of designers, engineers, academics, and activists, Stories of Solidarity's objective was to create a tool to encourage grassroots communication between precarious workers and organizers.
 {{ end-block }}
-</div>
+{{ end-block }}
 
 {{ color-wrapper-white }}
 {{ writing }}
