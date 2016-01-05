@@ -26,7 +26,7 @@
 <div class="color-wrapper gray" markdown="1">
 {% endcapture %}
 
-{% capture color-wrapper-beige %}
+{% capture wrapbeige %}
 <div class="color-wrapper beige" markdown="1">
 {% endcapture %}
 
