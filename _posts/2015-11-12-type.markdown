@@ -10,7 +10,7 @@ intro: "As an exploration of form through matter manipulation, I set out to crea
 ---
 {% include poststyles.md %}
 
-{{ color-wrapper-white }}
+{{ wrapper_white }}
 {{ writing }}
 ![Ink and Water Type](/assets/type-intro.jpg)
 
@@ -43,5 +43,5 @@ intro: "As an exploration of form through matter manipulation, I set out to crea
 ![Ink and Water Type](/assets/type-evo.jpg)
 
 ![Ink and Water Type](/assets/type-process.jpg)
-{{ end-block }}
-{{ end-block }}
+{{ end_block }}
+{{ end_block }}
