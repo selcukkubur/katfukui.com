@@ -14,19 +14,19 @@
 </section>
 {% endcapture %}
 
-{% capture color-wrapper-base %}
+{% capture wrapper_base %}
 <div class="color-wrapper base-bg" markdown="1">
 {% endcapture %}
 
-{% capture color-wrapper-white %}
+{% capture wrapwhite %}
 <div class="color-wrapper white" markdown="1">
 {% endcapture %}
 
-{% capture color-wrapper-gray %}
+{% capture wrapgray %}
 <div class="color-wrapper gray" markdown="1">
 {% endcapture %}
 
-{% capture wrapbeige %}
+{% capture wrapper_beige %}
 <div class="color-wrapper beige" markdown="1">
 {% endcapture %}
 
