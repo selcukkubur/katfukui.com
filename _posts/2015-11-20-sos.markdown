@@ -11,13 +11,14 @@ intro: "SoS is a non-profit, social media platform that encourages workers in th
 {% include poststyles.md %}
 
 {{ color-wrapper-beige }}
+{{ writing }}
 ## Why precarious labor?
 Low wages and job insecurity affected by millions in the USA is slowly being addressed in political and economic change. But it's a slow process because the working poor often do not have the resources to organize, especially because of the digital divide.
 
 >First-person stories have the strongest effect on bringing attention to the wealth disparity.
 
 Public participation and organization is crucial to closing the wage gap and improving benefits for workers in fast food, retail, domestic, agricultural, and transportation sectors. Sharing personal, moving stories is proven to be a strong way to encourage activism and create positive social impact.
-
+{{ end-block }}
 {{ midsize-image }}
 ![SoS](/assets/sos-logo.jpg)
 {{ end-block }}
