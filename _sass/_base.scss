@@ -109,7 +109,7 @@ a {
 
   &:hover {
       color: $text-color;
-      background-color: yellow;
+      background-color: $yellow;
   }
 }
 
@@ -119,10 +119,9 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $orange;
-    font-size: ms(1);
-    font-style: italic;
-    font-family: $serif;
+    color: $brand-color;
+    font-size: 1.8rem;
+    font-family: $base-font-family;
     margin: ms(3) ms(2);
 
     > :last-child {

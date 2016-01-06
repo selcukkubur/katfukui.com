@@ -30,6 +30,10 @@
 <div class="color-wrapper beige" markdown="1">
 {% endcapture %}
 
+{% capture wrapper_navy %}
+<div class="color-wrapper navy" markdown="1">
+{% endcapture %}
+
 {% capture full_image %}
 <div class="full-bleed-image" markdown="1">
 {% endcapture %}

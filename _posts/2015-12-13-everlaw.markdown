@@ -10,7 +10,7 @@ intro: "Everlaw is an ediscovery and litigation web-based platform used by law f
 ---
 {% include poststyles.md %}
 
-{{ wrapper_beige }}
+{{ wrapper_navy }}
 {{ writing }}
 ## My Role
 I joined the Everlaw team as its first designer, ready to establish a product design process. What sets Everlaw apart from other products in the law technology realm is its focus on building the fastest, easiest to use software on the market. I wanted to make sure this goal was apparent in the aesthetics, user flows, and overall experience of using the product.
@@ -41,7 +41,7 @@ This goal served as guidance for bringing Everlaw on its way to becoming a robus
 {{ end_block }}
 {{ end_block }}
 
-{{ wrapper_base }}
+{{ wrapper_beige }}
 {{ writing }}
 ## User and Market Research
 I researched the current market by learning about the ediscovery process from my law-educated colleagues and talking to early adopters of the product. These are the insights I gained about our userbase—
@@ -114,7 +114,7 @@ While the sidebar approach looks much cleaner, the Search, Binders, and StoryBui
 {{ end_block }}
 {{ end_block }}
 
-{{ wrapper_base }}
+{{ wrapper_beige }}
 {{ writing }}
 ## Make 'Favorites' the star
 So, it was clear we needed balance between focusing in on the most recent card and quickly accessing other cards and features when inspiration calls. After playing around with prototypes for days that the devs created, we found that your most recent cards will not be your resuming point in your workflow.
@@ -126,7 +126,6 @@ With this in mind, we decided that the Favorites function needs to be at the top
 ![Homepage Hierarchy](/assets/everlaw-cards.png)
 
 An Everlaw colleague suggested turning the first all-cards layout on its side to achieve this. As silly as it sounded, I tried it and it fit quite well with our updated Hierarchy Map. We used this as the basis for the final product. No idea is too weird or 'stupid' to try!
-
 {{ end_block }}
 {{ end_block }}
 
@@ -134,7 +133,7 @@ An Everlaw colleague suggested turning the first all-cards layout on its side to
 ![Homepage Hierarchy](/assets/everlaw-screen.png)
 {{ end_block }}
 
-{{ wrapper_base }}
+{{ wrapper_white }}
 {{ writing }}
 ## Micro and Macro
 By putting cards in vertical columns, Favorites is easily accessible at the most-left. You get a **micro view** by interacting with the most recent cards at the top of each column, and a **macro view** where you can reach all cards across all categories quickly.
@@ -157,7 +156,7 @@ In the end, we took out the personal review stats because it took up too much ve
 ![UI Kit](/assets/everlaw-ui.png)
 {{ end_block }}
 
-{{ wrapper_white }}
+{{ wrapper_navy }}
 {{ writing }}
 ## In Retrospect
 I learned a lot about shipping a product that affects every single one of your users and can positively impact their work.

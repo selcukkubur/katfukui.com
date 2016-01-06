@@ -1,17 +1,28 @@
 /**
  * Index page
  */
-.description-title {
-	font-size: ms(2);
-}
 
 .description {
-		font-size: ms(1);
-		margin-bottom: ms(0);
+	@include j-cf();
+	margin: $rhythm 0 $rhythm-more 0;
+
+	.description-left {
+		@include j-column(5/7);
+		min-width: 450px;
+		color: $brand-color;
+		line-height: 1.2;
+		text-decoration: underline;
+	}
+
+	.description-title {
+		// background: yellow;
+		//background-image: -webkit-linear-gradient(left, $yellow, #FFCC33);
+	}
 }
 
 /* container for each work thumbnail */
 .work {
+	@include j-cf();
 	margin-left: 0;
 	list-style: none;
 
@@ -86,7 +97,7 @@ figure.work-effect {
 		height: 63px;
 		width: 100%;
 		padding: 0 ms(1);
-		background: white;
+		background: black;
 		position: absolute;
 		-webkit-transition: -webkit-transform 0.35s;
 		transition: transform 0.35s;
@@ -105,6 +116,7 @@ figure.work-effect {
 	}
 
 	h2, p.post-caption {
+		color: $white;
 		-webkit-transition: -webkit-transform 0.35s;
 		transition: transform 0.35s;
 		-webkit-transform: translate3d(0,200%,0);
@@ -116,7 +128,7 @@ figure.work-effect {
 		display: inline-block;
 		line-height: 30px;
 		padding-top: ms(0);
-		border-bottom: 3px solid $text-color;
+		border-bottom: 3px solid $white;
 	}
 
 	&:hover figcaption,

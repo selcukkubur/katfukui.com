@@ -53,6 +53,14 @@
 	background-color: $beige;
 }
 
+.navy {
+	background-color: $navy;
+	color: $white;
+	h2 {
+		color: $brand-color;
+	}
+}
+
 /* color text */
 .twitter {
 	color: $twitter;

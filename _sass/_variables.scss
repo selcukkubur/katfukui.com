@@ -9,24 +9,26 @@ $base-font-size:   22px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
-$sans-serif-letter-spacing: -0.025em;
+$sans-serif-letter-spacing: -0.037em;
 $serif-letter-spacing: -0.01em;
 
 $spacing-unit:     30px;
 $rhythm:           ms(2);
 $rhythm-more:      ms(4);
 
-$text-color:       #403B33;
-$background-color: #fcf9f1;
-$brand-color:      #D3643B;
+$text-color:       #302D2C;
+$background-color: #ffffff;
+$brand-color:      #FF3D0C;
 
-$orange:           #D3643B;
+$orange:           #FE9B1E;
 $teal:             #94C7B6;
 $white:            #ffffff;
-$beige:            darken($background-color,6%);
+$beige:            #EFE8DC;
 $gray:             #eeeeee;
 $midgray:          darken($gray, 12%);
 $darkgray:         darken($gray, 25%);
+$navy:             #1C1F33;
+$yellow:           yellow;
 $twitter:          #55acee;
 $instagram:        #3f729b;
 $dribbble:         #ea4c89;

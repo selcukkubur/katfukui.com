@@ -10,7 +10,7 @@ intro: "SoS is a non-profit, social media platform that encourages workers in th
 ---
 {% include poststyles.md %}
 
-{{ wrapper_beige }}
+{{ wrapper_navy }}
 {{ writing }}
 ## Why precarious labor?
 Low wages and job insecurity affected by millions in the USA is slowly being addressed in political and economic change. But it's a slow process because the working poor often do not have the resources to organize, especially because of the digital divide.
@@ -53,7 +53,7 @@ The prototype and concept was well-recieved. Not too long after, a few team memb
 ![SoS](/assets/sos-platforms.jpg)
 {{ end_block }}
 
-{{ wrapper_base }}
+{{ wrapper_beige }}
 {{ writing }}
 ## Focus On the Stories
 {{ end_block }}
@@ -62,7 +62,7 @@ The prototype and concept was well-recieved. Not too long after, a few team memb
 {{ end_block }}
 {{ end_block }}
 
-{{ wrapper_beige }}
+{{ wrapper_navy }}
 {{ writing }}
 ## Go to the people!
 We took a beta of the app to AFL-CIO, a national labor convention, and talked to both precarious workers and labor organizers. They told us their stories and let us post them on the map and feed.
@@ -74,7 +74,7 @@ Many people stopped by our testing booth via word of mouth. Everyone has a story
 {{ end_block }}
 {{ end_block }}
 
-{{ wrapper_base }}
+{{ wrapper_white }}
 {{ writing }}
 ## Cross-platform Optimization
 Blargh blargh

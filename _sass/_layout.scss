@@ -12,7 +12,7 @@
 
 .nav {
   @include j-center($max-width: 1600px);
-  padding-top: ms(0);
+  padding-top: ms(1);
   display: block;
 
   ul.nav-right {
@@ -34,7 +34,7 @@
     vertical-align: middle;
   	width: 35px;
   	height: 35px;
-  	margin-left: ms(0);
+  	margin-left: ms(1);
 
     &:hover {
       background-color: yellow;
@@ -72,7 +72,7 @@
  * Posts
  */
 .post-header {
-  margin-bottom: $rhythm-more;
+  padding-bottom: $rhythm-more;
 
   ul {
     @include j-column(1/3);
