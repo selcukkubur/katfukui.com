@@ -56,12 +56,17 @@
 }
 
 .post-list {
-  margin-left: 0;
+  margin-left: 0; //leave room for #work
+  padding-top: ms(5);
   list-style: none;
 
   > li {
       margin-bottom: $spacing-unit;
   }
+
+  @media (max-width: 500px) {
+		padding-top: $rhythm;
+	}
 }
 
 .post-link {
