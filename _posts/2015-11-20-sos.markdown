@@ -10,7 +10,7 @@ intro: "SoS is a non-profit, social media platform that encourages workers in th
 ---
 {% include poststyles.md %}
 
-{{ wrapper_navy }}
+{{ wrapper_white }}
 {{ writing }}
 ## Why precarious labor?
 Low wages and job insecurity affected by millions in the USA is slowly being addressed in political and economic change. But it's a slow process because the working poor often do not have the resources to organize, especially because of the digital divide.
@@ -28,7 +28,7 @@ With a diverse team of designers, engineers, academics, and activists, Stories o
 {{ end_block }}
 {{ end_block }}
 
-{{ wrapper_white }}
+{{ wrapper_beige }}
 {{ writing }}
 ## Hackathon Hatched
 I participated in a hackathon held by UC Davis professors Glenda and Jesse Drew with the theme: "Social media for insecure labor." We aimed to develop a way to connect precarious workers in America based off Jesse's research.
@@ -53,7 +53,7 @@ The prototype and concept was well-recieved. Not too long after, a few team memb
 ![SoS](/assets/sos-platforms.jpg)
 {{ end_block }}
 
-{{ wrapper_beige }}
+{{ wrapper_white }}
 {{ writing }}
 ## Focus On the Stories
 {{ end_block }}

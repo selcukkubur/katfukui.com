@@ -11,6 +11,7 @@
 }
 
 .nav {
+  position: relative;
   @include j-center($max-width: 1600px);
   padding-top: ms(1);
   display: block;
@@ -47,7 +48,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding-bottom: $rhythm;
 }
 
 .page-heading {
@@ -72,7 +73,7 @@
  * Posts
  */
 .post-header {
-  padding-bottom: $rhythm-more;
+  padding: $rhythm-more 0;
 
   ul {
     @include j-column(1/3);

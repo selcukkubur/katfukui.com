@@ -4,7 +4,7 @@
 
 .description {
 	@include j-cf();
-	margin: $rhythm 0 $rhythm-more 0;
+	margin: $rhythm-more 0;
 
 	.description-left {
 		@include j-column(5/7);
@@ -44,11 +44,12 @@
 		}
 
 		&:nth-child(1) {
-			@include j-column(8/8);
+			@include j-span(6/8);
+			float: right;
 
-			img {
-				height: auto;
-			}
+			// img {
+			// 	height: auto;
+			// }
 
 			@media (max-width: 500px) {
 				img { height: 100%; }
@@ -56,7 +57,7 @@
 		}
 
 		&:nth-child(2) {
-			@include j-column(5/8, $cycle: 2);
+			@include j-column(5/8);
 		}
 
 		&:nth-child(3) {

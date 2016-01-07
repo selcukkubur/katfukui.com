@@ -11,6 +11,7 @@
 
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 <script src="/js/jribbble.js" type="text/javascript"></script>
+<script src="/js/fadeInAmate.js"></script>
 
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
 
@@ -31,4 +32,17 @@
 	  var s = document.getElementsByTagName('script')[0];
 	  s.parentNode.insertBefore(wf, s);
 	})();
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fadeInAmate").fadeInAmate({
+		  initialDelay: 1300,
+		  fadeInSpeed: 900,
+		  animationDelay: 300,
+
+		  // enable the slide down animation
+		  bounce: true
+		});
+	});
 </script>
