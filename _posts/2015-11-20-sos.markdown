@@ -49,17 +49,20 @@ The prototype and concept was well-received. Not too long after, a few team memb
 {{ end_block }}
 {{ end_block }}
 
-{{ full_image }}
-![SoS](/assets/sos-platforms.jpg)
-{{ end_block }}
-
 {{ wrapper_white }}
 {{ writing }}
-## Focus On the Stories
+## Focus on the stories
+After building the initial hackathon prototype, we re-evaluated the goals of the app and how we can get there. [OUR Walmart](http://www.forrespect.org) leaders loved what we were doing and let us use hundreds of stories from their organized Walmart employees as our starting data points.
+
+After reading the emotional stories, we knew gathering as many of these stories as we could was the key to a useful and successful platform. We worked towards the goal of tech democracy by making sure everyone had a way to tell their story. Even if you only have a pay-per-minute cell phone with basic texting, that's enough to share your experiences through the platform.
 {{ end_block }}
 {{ midsize_image }}
 ![Content Flow](/assets/sos-content.jpg)
 {{ end_block }}
+{{ end_block }}
+
+{{ full_image }}
+![SoS](/assets/sos-stories.png)
 {{ end_block }}
 
 {{ wrapper_navy }}
@@ -72,6 +75,10 @@ Many people stopped by our testing booth via word of mouth. Everyone has a story
 {{ midsize_image }}
 ![People](/assets/sos-people.jpg)
 {{ end_block }}
+{{ end_block }}
+
+{{ full_image }}
+![SoS](/assets/sos-platforms.jpg)
 {{ end_block }}
 
 {{ wrapper_white }}

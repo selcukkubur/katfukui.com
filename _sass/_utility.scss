@@ -36,6 +36,12 @@
 	@include j-column(2/3);
 }
 
+.half, .one-third, .two-thirds {
+	@media (max-width: 500px) {
+		@include j-column(1);
+	}
+}
+
 /* color backgrounds */
 .base-bg {
 	background-color: $background-color;

@@ -9,11 +9,13 @@
 title: Kat Fukui
 email: katherinefukui@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Kat Fukui is a curious Product Designer and general geeky cat lady.
+  Kat Fukui is a curious Product Designer and geeky cat lady.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://katfukui.com" # the base hostname & protocol for your site
 twitter_username: katfukui
 github_username:  katmeister
+dribbble_username: katfukui
+instagram_username: katfukui
 
 # http://jekyllrb.com/docs/permalinks/
 permalink:   /work/:title/
