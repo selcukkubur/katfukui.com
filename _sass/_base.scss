@@ -17,11 +17,17 @@ html {
 	text-rendering: optimizeLegibility; // Improve kerning pairs. Caution: Webkit gets funny with this sometimes
 	-webkit-font-smoothing: antialiased;
 }
+
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
   letter-spacing: $sans-serif-letter-spacing;
+
+  @media (max-width: 500px) {
+		font-size: $m-font-size;
+    letter-spacing: $m-sans-serif-letter-spacing;
+	}
 }
 
 * > p:last-child {
@@ -40,6 +46,10 @@ ul, ol, dl, figure,
 
 section {
   margin-bottom: $rhythm;
+
+  @media (max-width: 500px) {
+    margin-bottom: ms(1);
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -118,14 +128,19 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $brand-color;
-    font-size: 1.8rem;
-    font-family: $base-font-family;
-    margin: ms(3) ms(2);
+  color: $brand-color;
+  font-size: 1.8rem;
+  font-family: $base-font-family;
+  margin: ms(3) ms(2);
 
-    > :last-child {
-        margin-bottom: 0;
-    }
+  > :last-child {
+      margin-bottom: 0;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 1.5rem;
+    margin: ms(1) ms(0);
+  }
 }
 
 

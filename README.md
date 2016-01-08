@@ -1,2 +1,4 @@
 # katfukui.com v1.0
-Portfolio Repo
+My humble little portfolio!
+
+Built with Jekyll

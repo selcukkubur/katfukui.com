@@ -45,7 +45,7 @@ After a coffee-fuled night, we presented an anonymous story-sharing platform for
 
 ![SoS](/assets/sos-hack.png)
 
-The prototype and concept was well-recieved. Not too long after, a few team members started developing the research idea into an actual product. We met with labor organizations, potential funders, data visualization researchers, developers, and design firms to bring our idea to realization.
+The prototype and concept was well-received. Not too long after, a few team members started developing the research idea into an actual product. We met with labor organizations, potential funders, data visualization researchers, developers, and design firms to bring our idea to realization.
 {{ end_block }}
 {{ end_block }}
 
@@ -77,7 +77,7 @@ Many people stopped by our testing booth via word of mouth. Everyone has a story
 {{ wrapper_white }}
 {{ writing }}
 ## Cross-platform Optimization
-Blargh blargh
+Because our users ranged from iPad-wielding labor organizers to text-only phones, we aimed to reduce friction on all platforms with a web app, native mobile app, and secure texting number.
 {{ end_block }}
 {{ midsize_image }}
 ![Updated Nav](/assets/sos-topnav.png)

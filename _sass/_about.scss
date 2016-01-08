@@ -29,6 +29,7 @@
 		height: 640px;
 
 		@media (max-width: 700px) {
+			width: 100%;
 			height: 400px;
 		}
 	}
@@ -42,7 +43,7 @@
 
 	.about-holla, .about-holla2 {
 		@media (max-width: 700px) {
-			width:100%;
+			width: 100%;
 		}
 	}
 
@@ -51,7 +52,7 @@
 		box-sizing: border-box;
 
 		@media (max-width: 700px) {
-			padding: 0 ms(0);
+			padding: ms(1) ms(0) 0 ms(0);
 		}
 	}/* About me text */
 
@@ -66,8 +67,13 @@
 		}
 
 		@media (max-width: 700px) {
-			padding: 0;
+			margin-top: ms(1);
+			padding: 0 ms(0);
 			text-align: left;
+
+			ul {
+				margin: 0 0 ms(0) 0;
+			}
 		}
 	} /* Links and site info */
 }

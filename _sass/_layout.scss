@@ -22,6 +22,10 @@
   	li {
   		margin: 0 $rhythm;
   		display: inline-block;
+
+      @media (max-width: 500px) {
+    		margin: 0 ms(1);
+    	}
   	}
   }
 
@@ -41,6 +45,14 @@
       background-color: yellow;
       polygon, rect { fill: $text-color; }
     }
+
+    @media (max-width: 500px) {
+  		margin-left: ms(0);
+  	}
+  }
+
+  @media (max-width: 500px) {
+    padding-top: ms(0);
   }
 } /* nav */
 
@@ -48,7 +60,7 @@
  * Page content
  */
 .page-content {
-  padding-bottom: $rhythm;
+  //padding-bottom: $rhythm;
 }
 
 .page-heading {
@@ -87,7 +99,6 @@
   }
 
   li.post-meta {
-  	//display: inline-block;
     font-size: ms(0);
     margin-bottom: ms(0);
 
@@ -98,10 +109,21 @@
     &:last-child {
       margin-bottom: 0;
     }
+
+    @media (max-width: 500px) {
+      display: inline;
+      @include j-column(1/3);
+    }
   }
 
   .post-description {
     @include j-column(2/3);
+  }
+
+  ul, .post-description {
+    @media (max-width: 500px) {
+      @include j-column(1);
+    }
   }
 }
 
@@ -115,9 +137,14 @@
 
 .post-content {
   font-family: $serif;
+  letter-spacing: $serif-letter-spacing;
 
   .full-bleed img {
     max-width: 100%;
+  }
+
+  @media (max-width: 500px) {
+    letter-spacing: $m-serif-letter-spacing;
   }
 }
 
@@ -133,10 +160,18 @@
     > :last-child {
         margin-bottom: 0;
     }
+
+    @media (max-width: 500px) {
+  		margin: 0;
+  	}
   }
 
   > :last-child {
       padding-bottom: 0;
+  }
+
+  @media (max-width: 500px) {
+    padding: 0 ms(0);
   }
 }
 
@@ -168,6 +203,10 @@
   &:last-child {
     margin-bottom: 0;
   }
+
+  @media (max-width: 700px) {
+    margin: ms(1) auto;
+  }
 }
 
 /* For full-bleed sections with
@@ -178,7 +217,6 @@ background colors and padding */
 	@include j-cf();
 
 	@media (max-width: 500px) {
-		padding-top: $rhythm;
-		margin-bottom: $rhythm;
+		padding: $rhythm 0;
 	}
 }

@@ -63,11 +63,13 @@
 
 /* color text */
 .twitter {
-	color: $twitter;
+	a, a:visited {
+		color: $twitter;
+	}
 }
 
 .instagram {
-	color: $instagram;
+	a, a:visited { color: $instagram; }
 }
 
 .dribbble {
