@@ -221,12 +221,13 @@ pre {
       vertical-align: middle; }
 
     a {
-      padding-bottom: 0; }
+      padding-bottom: 0;
 
-    &:hover {
-      opacity: 0.6;
-      background-color: none;
-     }
+      &:hover {
+        opacity: 0.6;
+        background-color: transparent;
+      }
+    }
   }
 }
 
