@@ -1,10 +1,13 @@
 // Modular Scale
-$ms-base: 1rem;
-$ms-ratio: $golden;
+$ms-base:          1rem;
+$ms-ratio:         $golden;
+$rhythm:           ms(2);
+$rhythm-more:      ms(4);
 
+// Typography
 $base-font-family: "Apercu Regular", sans-serif;
-$title-font: "Apercu Bold", sans-serif;
-$serif: 'PT Serif', serif;
+$title-font:       "Apercu Bold", sans-serif;
+$serif:            "PT Serif", serif;
 $base-font-size:   22px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
@@ -12,19 +15,19 @@ $base-line-height: 1.5;
 $sans-serif-letter-spacing: -0.037em;
 $serif-letter-spacing: -0.01em;
 
-// Mobile sizes
-$m-font-size: 18px;
+// Mobile typography
+$m-font-size:      18px;
 $m-sans-serif-letter-spacing: -0.02em;
 $m-serif-letter-spacing: -0.009em;
 
-$spacing-unit:     30px;
-$rhythm:           ms(2);
-$rhythm-more:      ms(4);
+// Media queries
+$mobile:           600px;
+$laptop:           880px;
 
+// Colors
 $text-color:       #302D2C;
 $background-color: #ffffff;
 $brand-color:      #FF3D0C;
-
 $orange:           #FE9B1E;
 $teal:             #94C7B6;
 $white:            #ffffff;
@@ -40,9 +43,3 @@ $dribbble:         #ea4c89;
 
 // Misc
 $transition: all 0.2s ease-in-out 0s;
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;

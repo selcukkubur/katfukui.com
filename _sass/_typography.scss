@@ -1,4 +1,4 @@
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 	display: inline-block;
 	font-family: $title-font;
 	font-size-adjust: 0.508;
@@ -7,7 +7,7 @@ h1, h2, h3, h4 {
 	letter-spacing: $sans-serif-letter-spacing;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
 	text-decoration: none;
 }
 

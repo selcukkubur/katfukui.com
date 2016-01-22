@@ -55,8 +55,8 @@ Everlaw's hosted cases range from 1GB of data to 1TB. Average users of the 1TB c
 ### Tunnel Vision Workflow
 When users log back into the product, they resume their work from where they last left off.
 
-### Balancing Act
-The reviewers' end goal is to craft a narrative to take to court. We should allow them to keep track of their thoughts and create
+### High Productivity
+The reviewers' end goal is to craft a narrative to take to court. We should allow them to keep track of their thoughts in a central place the moment a spark happens.
 
 ### Speed > Everything
 Users just want to do things quickly. They're browsing through hundreds of pages a day to cull relevant information and need unobtrusive design.

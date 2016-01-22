@@ -1,6 +1,7 @@
-/**
- * Reset some basic elements
- */
+/*===================================
+_base.scss
+*==================================*/
+
 html, body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -8,9 +9,7 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-/**
- * Basic styling
- */
+/* Basic styles */
 html {
 	font-kerning: none; // Set the default for kerning
 	font-synthesis: none; // Don't allow the font to create sythetic bold/italic
@@ -24,89 +23,34 @@ body {
   background-color: $background-color;
   letter-spacing: $sans-serif-letter-spacing;
 
-  @media (max-width: 500px) {
+  @include media-query($mobile) {
 		font-size: $m-font-size;
     letter-spacing: $m-sans-serif-letter-spacing;
 	}
 }
 
-* > p:last-child {
-  margin-bottom: 0;
-}
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $rhythm;
-}
-
-section {
-  margin-bottom: $rhythm;
-
-  @media (max-width: 500px) {
-    margin-bottom: ms(1);
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: ms(0);
-}
-
-
-
-/**
- * Images
- */
-img {
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-font-size;
-    box-sizing: border-box;
-}
-
-/**
- * Lists
- */
 ul, ol {
-    margin-left: $rhythm;
+  margin-left: $rhythm;
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+  > ul,
+  > ol {
+       margin-bottom: 0;
+  }
 }
 
 em {
   font-family: $serif;
 }
 
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+mark {
+	display: inline;
+	color: $text-color;
+	@include j-cf();
 }
 
 
-
-/**
- * Links
- */
 a {
   color: $brand-color;
   text-decoration: none;
@@ -123,9 +67,49 @@ a {
 
 
 
-/**
- * Blockquotes
- */
+/* Margin-bottom */
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $rhythm;
+}
+
+section {
+  margin-bottom: $rhythm;
+
+  @include media-query($mobile) {
+    margin-bottom: ms(1);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: ms(0);
+}
+
+* > p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/* Images and figures */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+    box-sizing: border-box;
+}
+
+
+
+/* Blockquotes */
 blockquote {
   color: $brand-color;
   font-size: 1.8rem;
@@ -136,7 +120,7 @@ blockquote {
       margin-bottom: 0;
   }
 
-  @media (max-width: 500px) {
+  @include media-query($mobile) {
     font-size: 1.5rem;
     margin: ms(1) ms(0);
   }
@@ -144,9 +128,7 @@ blockquote {
 
 
 
-/**
- * Code formatting
- */
+/* Code format */
 pre,
 code {
     font-size: 15px;
@@ -171,38 +153,31 @@ pre {
 }
 
 
-/**
- * Wrapper
- */
+/* Wrapper */
 .wrapper {
   @include j-center($max_width: 1600px, $pad: 6%);
   @include j-cf();
-	@media (max-width: 500px) {
+	@include media-query($mobile) {
     padding-left: 3%;
     padding-right: 3%;
   }
 }
 
-/**
- * Icons
- */
+/* Icons*/
 .icon {
+  > svg {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
 
-    > svg {
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        vertical-align: middle;
-
-        path {
-            fill: $text-color;
-        }
+    path {
+        fill: $text-color;
     }
+  }
 }
 
-/**
- * Site footer
- */
+/* Footer */
 .site-footer {
   text-align: center;
   padding: ms(3) 0;
@@ -212,6 +187,7 @@ pre {
 
 .social-media-list {
   list-style: none;
+  margin-left: 0;
 
   li {
     display: inline;
@@ -229,8 +205,4 @@ pre {
       }
     }
   }
-}
-
-ul.social-media-list {
-  margin-left: 0;
 }

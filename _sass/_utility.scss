@@ -1,3 +1,8 @@
+/*===================================
+_utility.scss
+*==================================*/
+
+/* Text-related */
 .left {
 	text-align: left;
 }
@@ -16,14 +21,20 @@
 
 .bold {
 	font-weight: bold;
+	font-family: $title-font;
 }
 
+
+
+/* Borders */
 .border-top {
 	border-top: 1px solid $darkgray;
 	padding-top: $rhythm;
 }
 
-/* quick layout */
+
+
+/* Quick columns */
 .half {
 	@include j-column(1/2);
 }
@@ -42,7 +53,9 @@
 	}
 }
 
-/* color backgrounds */
+
+
+/* Color backgrounds */
 .base-bg {
 	background-color: $background-color;
 }
@@ -67,7 +80,9 @@
 	}
 }
 
-/* color text */
+
+
+/* Color text */
 .twitter {
 	a, a:visited {
 		color: $twitter;
@@ -80,14 +95,4 @@
 
 .dribbble {
 	color: $dribbble;
-}
-
-mark {
-	display: inline;
-	color: $text-color;
-	@include j-cf();
-}
-
-.bold {
-	font-family: $title-font;
 }
