@@ -54,6 +54,7 @@ mark {
 a {
   color: $brand-color;
   text-decoration: none;
+  cursor: pointer;
 
   &:visited {
       color: $brand-color;
