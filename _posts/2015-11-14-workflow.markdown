@@ -5,5 +5,16 @@ date:   2015-11-21 12:37:36 -0800
 thumbnail: ../images/workflow.png
 caption: "Writing"
 tags: [Writing]
+meta: {Type: Personal, Date: 2016}
 external_url: https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e#.888tsxopx
+intro: "A step-by-step guide on how to code your own portfolio using the terminal, Jekyll, and GitHub."
 ---
+{% include poststyles.md %}
+
+{{ wrapper_white }}
+{{ writing }}
+<script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-width="100%" data-collapsed="true" href="https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e">The Design Portfolio Workflow</a>
+
+Read it on [Medium](https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e)!
+{{end_block}}
+{{end_block}}
