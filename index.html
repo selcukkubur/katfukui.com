@@ -9,14 +9,14 @@ layout: index
       <span class="description-title">{{ site.description }}</span>
     </h1>
   </section>
-  
+
   <section class="post-list fadeInAmate" id="work">
     <ul class="work">
       {% for post in site.posts %}
         <li class="work-thumb">
           <figure class="work-effect">
             {% if post.external_url %}
-            <a class="post-link" href="{{ post.external_url }}">
+            <a class="post-link" href="{{ post.external_url }}" target="_blank">
             {% else %}
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             {% endif %}

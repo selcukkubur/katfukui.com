@@ -15,7 +15,7 @@ url: "http://katfukui.com" # the base hostname & protocol for your site
 twitter_username: katfukui
 github_username:  katmeister
 dribbble_username: katfukui
-instagram_username: katfukui
+repo: https://github.com/katmeister/my-site
 
 # http://jekyllrb.com/docs/permalinks/
 permalink:   /work/:title/
