@@ -13,6 +13,6 @@ intro: "From September to December 2015, I spent three months at Sequoia Capital
 {{ writing }}
 Due to the sensitive nature of these projects, the presentation is password protected. Sorry! Drop me an [email](mailto:katherinefukui@gmail.com) if you're interested.
 
-If you have it, you can [view the presentation here](link).
+If you have it, you can <a href="https://www.dropbox.com/s/dygiinziheb7p9k/sequoia.pdf?dl=0" target="blank">view the presentation here</a>.
 {{end_block}}
 {{end_block}}
