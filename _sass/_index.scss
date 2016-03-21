@@ -1,48 +1,31 @@
 /*===================================
 _index.scss
 *==================================*/
-
-.description {
+/* Index page */
+.index-description {
 	@include j-cf();
-	padding-top: ms(5);
-
-	.description-left {
-		@include j-column(5/7);
-		min-width: 450px;
-		color: $brand-color;
-		line-height: 1.2;
-		text-decoration: underline;
-
-		@include media-query($mobile) {
-			@include j-column(7/7);
-			min-width: 100%;
-			text-align: center;
-		}
-	}
+	padding-bottom: ms(4);
 
 	@include media-query($mobile) {
-		padding-top: $rhythm-more;
+		padding-bottom: ms(0);
 	}
 }
 
+.index-description-left {
+	@include j-column(5/7);
+	min-width: 450px;
 
-
-/* List of posts on index */
-.post-list {
-  margin-left: 0; //leave room for #work
-  padding-top: ms(5);
-  list-style: none;
-
-  > li {
-      margin-bottom: $rhythm;
-  }
-
-  @include media-query($mobile) {
-		padding-top: $rhythm;
+	@include media-query($mobile) {
+		@include j-column(7/7);
+		min-width: 100%;
+		text-align: center;
 	}
 }
 
-
+.index-description-title {
+	line-height: 1.2;
+	text-decoration: underline;
+}
 
 /* Container for each work thumbnail */
 .work {
@@ -54,52 +37,52 @@ _index.scss
 		border: none;
 		color: $text-color;
 	}
+}
 
-	.work-thumb {
-		position: relative;
-		margin-bottom: ms(3);
-		height: 610px;
-		overflow: hidden;
-		@include j-column(1/2); //for all thumbs 4+
+.work-thumb {
+	position: relative;
+	margin-bottom: ms(3);
+	height: 610px;
+	overflow: hidden;
+	@include j-column(1/2); //for all thumbs 4+
+
+	&:nth-child(1) {
+		@include j-span(6/8);
+		float: right;
+	}
+
+	&:nth-child(2) {
+		@include j-column(5/8, $cycle: 2);
+	}
+
+	&:nth-child(3) {
+		@include j-column(3/8);
+
+		h2 {
+			font-size: ms(1);
+		}
+	}
+
+	@include media-query($laptop) {
+		@include j-column(1, $cycle: 1);
+		height: 500px;
 
 		&:nth-child(1) {
-			@include j-span(6/8);
-			float: right;
-		}
-
-		&:nth-child(2) {
-			@include j-column(5/8, $cycle: 2);
-		}
-
-		&:nth-child(3) {
-			@include j-column(3/8);
-
-			h2 {
-				font-size: ms(1);
-			}
-		}
-
-		@include media-query($laptop) {
 			@include j-column(1, $cycle: 1);
-			height: 500px;
-
-			&:nth-child(1) {
-				@include j-column(1, $cycle: 1);
-			}
-
-			&:nth-child(2), &:nth-child(3) {
-				@include j-column(1/2);
-			}
 		}
 
-		@include media-query($mobile) {
-			height: 400px;
-
-			&:nth-child(2), &:nth-child(3) {
-				@include j-column(8/8, $cycle: 1);
-			}
+		&:nth-child(2), &:nth-child(3) {
+			@include j-column(1/2);
 		}
-	}/* work-thumb */
+	}
+
+	@include media-query($mobile) {
+		height: 400px;
+
+		&:nth-child(2), &:nth-child(3) {
+			@include j-column(8/8, $cycle: 1);
+		}
+	}
 }
 
 figure.work-effect {

@@ -1,0 +1,38 @@
+<div class="page-content">
+  
+  <div class="wrapper">
+
+    <section class="post-list fadeInAmate" id="work">
+      <ul class="work">
+        {% for post in site.posts %}
+          {% if post.categories contains 'work' %}
+            <li class="work-thumb">
+              <figure class="work-effect">
+                {% if post.external_url %}
+                <a class="post-link" href="{{ post.external_url }}" target="_blank">
+                {% else %}
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                {% endif %}
+                  <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+                  <figcaption>
+                    <h2>{{ post.title }}</h2>
+                    <p class="post-caption">{{ post.caption }}</p>
+                  </figcaption>
+                </a>
+              </figure>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+  </div>
+
+  <div class="dribbble-wrapper white">
+  	<div class="wrapper">
+      <h3>Latest Dribbble Shots</h3>
+  		<div class="dribbble-feed">
+  		</div>
+  	</div>
+  </div>
+
+</div>
