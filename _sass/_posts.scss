@@ -21,8 +21,6 @@ _posts.scss
 }
 
 .writing-list {
-	@include j-center($max-width: 650px, $pad: 0);
-
 	.writing-piece {
 		border-bottom: 1px solid $midgray;
 		padding-bottom: $rhythm;

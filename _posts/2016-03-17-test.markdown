@@ -12,12 +12,18 @@ intro: "New job in the city, new goals, and a new portfolio format. Reflections 
 {{ writing }}
 After wrapping up my design fellowship at [Sequoia](http://www.sequoiacap.com) during December of 2015, I was able to start off 2016 by stepping back and focusing on myself. With my free time, I tried a few things out...
 
-* Attempted baking
-* Fixed up my portfolio
-* Wrote my first [Medium post](https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e)
-* Practiced my Javascript on [CodeWars](http://www.codewars.com)
-* Consistent exercise
+* Attempted baking 🍰
+* Fixed up my portfolio 💻
+* Wrote my first [Medium post](https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e) 📝
+* Practiced my Javascript on [CodeWars](http://www.codewars.com) ✊
+* Exercised consistently 🏃
 
-Pretty fun and productive stuff, right?
+Pretty fun and productive stuff, right? And of course, the one looming checkbox on my To Do list...
+
+* Find my dream career opportunity that reflects my goals and encourages growth. A place where people care about the shit I care about. Where I can become a better coder. Where I can do impactful work.
+
+## Octocats
+I feel super honored and happy to say that I've just joined the [GitHub](http://www.github.com) design team as a Product Designer.
+
 {{ end-block }}
 {{ end-block }}

@@ -62,7 +62,7 @@ _layout.scss
 
 /* Pages */
 .page-content {
-  margin-top: ms(5);
+  margin-top: $rhythm-more;
 
   @include media-query($mobile) {
     margin-top: ms(4);

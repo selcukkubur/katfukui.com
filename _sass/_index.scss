@@ -2,23 +2,16 @@
 _index.scss
 *==================================*/
 /* Index page */
+.index-wrapper {
+	@include j-center($max-width: 650px, $pad: 0);
+}
+
 .index-description {
-	@include j-cf();
-	padding-bottom: ms(4);
+	padding-bottom: ms(3);
 
 	@include media-query($mobile) {
 		padding-bottom: ms(0);
-	}
-}
-
-.index-description-left {
-	@include j-column(5/7);
-	min-width: 450px;
-
-	@include media-query($mobile) {
-		@include j-column(7/7);
-		min-width: 100%;
-		text-align: center;
+		max-width: 100%;
 	}
 }
 
