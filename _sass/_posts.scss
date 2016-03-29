@@ -3,7 +3,7 @@ _posts.scss
 *==================================*/
 /* List of posts and writing */
 .post-list,
-.writing-list {
+.thoughts-list {
   margin-left: 0; //leave room for #work
 
 	> ul {
@@ -20,8 +20,8 @@ _posts.scss
 	}
 }
 
-.writing-list {
-	.writing-piece {
+.thoughts-list {
+	.thoughts-piece {
 		border-bottom: 1px solid $midgray;
 		padding-bottom: $rhythm;
 
@@ -31,7 +31,7 @@ _posts.scss
 		}
 	}
 
-	.writing-blurb {
+	.thoughts-blurb {
 		font-family: $serif;
 	}
 }
@@ -42,12 +42,12 @@ _posts.scss
   font-size: ms(0);
 }
 
-/* Writing Styling */
-.writing-header {
+/* Thoughts Styling */
+.thoughts-header {
   padding: ms(3) 0;
 }
 
-.writing-title {
+.thoughts-title {
   > h1,
   > h4 {
     margin-bottom: 0;

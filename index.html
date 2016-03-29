@@ -13,16 +13,16 @@ layout: index
       <h4>Check out my <a href="/work/">latest work &rarr;</a></h4>
     </div>
 
-    <section class="writing-list fadeInAmate" id="work">
+    <section class="thoughts-list fadeInAmate" id="work">
       <h4>Thoughts</h4>
       <ul>
         {% for post in site.posts %}
-          {% if post.categories contains 'writing' %}
-            <li class="writing-piece">
+          {% if post.categories contains 'thoughts' %}
+            <li class="thoughts-piece">
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                 <h2>{{ post.title }}</h2>
               </a>
-              <p class="writing-blurb">{{ post.intro }} <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">READ MORE &rarr;</a></p>
+              <p class="thoughts-blurb">{{ post.intro }} <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">READ MORE &rarr;</a></p>
             </li>
           {% endif %}
         {% endfor %}
