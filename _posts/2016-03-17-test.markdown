@@ -1,0 +1,35 @@
+---
+layout: thoughts
+title:  "New New"
+date:   2016-03-17 12:37:36 -0800
+category: thoughts
+permalink:   /thoughts/:title/
+intro: "Starting 2016 with a new job, new goals, and a new portfolio format. Reflections on where I want to go."
+---
+{% include poststyles.md %}
+
+{{ wrapper_white }}
+{{ writing }}
+After wrapping up my design fellowship at [Sequoia](http://www.sequoiacap.com) during December of 2015, I was able to start off 2016 by stepping back and focusing on myself. With my free time, I figured I could...
+
+* Attempt baking 🍰
+* Fix up my portfolio 💻
+* Write my first [Medium post](https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e) 📝
+* Practice Javascript on [CodeWars](http://www.codewars.com) ✊
+* Exercise consistently 🏃
+
+Pretty fun and productive stuff, right? I learned that I pretty much suck at baking, and that I want to keep coding forever and ever (there's bound to be some mind chip information transfer by the time I can't physically type anymore from carpel tunnel, right?). But of course, the one looming checkbox on my early-2016 To Do list...
+
+* Find my dream career opportunity that reflects my goals and encourages growth. A place where people care about the shit I care about. Where I can become a better coder. Where I can do impactful work.
+
+After some time of buckling down to ✅ that goal off, a series of events unfolded to place me at my dream job.
+
+## Octocats
+I feel super honored and happy to say that as of Pi Day 2016, I'm a Product Designer at [GitHub](http://www.github.com)! 🎉 I already feel at home here and am so humbled to be around brilliant, kind, and forward-thinking peeps. This is also my first time working in San Francisco, despite living in Da Bay&trade; all my life. And ya know, being a designer and all.
+
+I'll be working with the newly-formed **Community and Safety Team** to develop policies and tools related to abuse and harassment. This is a subject that I hold very important in the Internet age, especially when it comes to tech and web development. I don't think many existing platforms are committing and working fast enough to combat online harassment—especially what women often deal with. So yup, I'm stoked to dig in and do impactful work that can positively change the way current and future GitHub users code! Huzzah!
+
+_Also, this is my first blog post on katfukui.com. I haven't really publicly blogged since Xanga and Livejournal days, so I'm a little rusty... Hoping to post at least two times a month, though. Cheers!_
+
+{{ end-block }}
+{{ end-block }}

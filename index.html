@@ -4,39 +4,31 @@ layout: index
 
 <div class="wrapper">
 
-  <section class="description fadeInAmate">
-    <h1 class="description-left">
-      <span class="description-title">{{ site.description }}</span>
-    </h1>
-  </section>
+  <div class="index-wrapper">
 
-  <section class="post-list fadeInAmate" id="work">
-    <ul class="work">
-      {% for post in site.posts %}
-        <li class="work-thumb">
-          <figure class="work-effect">
-            {% if post.external_url %}
-            <a class="post-link" href="{{ post.external_url }}" target="_blank">
-            {% else %}
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            {% endif %}
-              <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
-              <figcaption>
+    <div class="index-description fadeInAmate">
+      <h2 class="index-description-title">
+        {{ site.description }}
+      </h2>
+      <h4>Check out my <a href="/work/">latest work &rarr;</a></h4>
+    </div>
+
+    <section class="thoughts-list fadeInAmate" id="work">
+      <h4>Thoughts</h4>
+      <ul>
+        {% for post in site.posts %}
+          {% if post.categories contains 'thoughts' %}
+            <li class="thoughts-piece">
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                 <h2>{{ post.title }}</h2>
-                <p class="post-caption">{{ post.caption }}</p>
-              </figcaption>
-            </a>
-          </figure>
-        </li>
-      {% endfor %}
-    </ul>
+              </a>
+              <p class="thoughts-blurb">{{ post.intro }} <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">READ MORE &rarr;</a></p>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
 
-</div>
+  </div>
 
-<div class="dribbble-wrapper white">
-	<div class="wrapper">
-    <h3>Latest Dribbble Shots</h3>
-		<div class="dribbble-feed">
-		</div>
-	</div>
 </div>

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="thoughts-header teal">
+    <div class="thoughts-title center">
+      <h1 itemprop="headline">{{ page.title }}</h1><br>
+      <h4>{{ page.date | date: '%B %d, %Y' }}</h4>
+    </div>
+  </header>
+
+  <div class="post-content fadeInAmate" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <div class="paginate">
+    {% if page.next.url %}
+      <a class="paginate-left" href="{{page.next.url}}">&larr;<span class="paginate-left-text"> {{page.next.title}}</span></a>
+    {% else %}
+      <div class="paginate-left"></div>
+    {% endif %}
+    <a class="paginate-home" href="{{ site.baseurl }}/">All</a>
+    {% if page.previous.url %}
+      <a class="paginate-right" href="{{page.previous.url}}"><span class="paginate-right-text">{{page.previous.title}} </span>&rarr;</a>
+    {% else %}
+      <div class="paginate-right"></div>
+    {% endif %}
+  </div>
+
+</article>
