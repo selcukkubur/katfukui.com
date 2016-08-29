@@ -1,19 +1,8 @@
----
-layout: index
----
-
-<div class="wrapper">
-
+<div class="page-content">
   <div class="index-wrapper">
-
-    <div class="index-description fadeInAmate">
-      <h2 class="index-description-title">
-        {{ site.description }}
-      </h2>
-    </div>
-
     <section class="thoughts-list fadeInAmate" id="work">
-      <h4>Thoughts</h4>
+      <h2>Thoughts</h2>
+
       <ul>
         {% for post in site.posts %}
           {% if post.categories contains 'thoughts' %}
@@ -21,13 +10,10 @@ layout: index
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                 <h3>{{ post.title }}</h3>
               </a>
-              <p class="thoughts-blurb">{{ post.intro }} <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">READ MORE &rarr;</a></p>
+              <p class="thoughts-blurb">{{ post.intro }}</p>
             </li>
           {% endif %}
         {% endfor %}
       </ul>
-    </section>
-
   </div>
-
 </div>

@@ -22,7 +22,7 @@ _layout.scss
     float: right;
 
   	li {
-  		margin: 0 $rhythm;
+  		margin: 0 $rhythm-less;
   		display: inline-block;
 
       @include media-query($mobile) {
