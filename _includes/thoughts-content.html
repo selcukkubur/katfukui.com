@@ -1,19 +1,24 @@
-<div class="page-content">
-  <div class="index-wrapper">
-    <section class="thoughts-list fadeInAmate" id="work">
-      <h2>Thoughts</h2>
+<section class="thoughts-list fadeInAmate" id="work">
+  <h4>Thoughts</h4>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.categories contains 'thoughts' %}
+        <li class="thoughts-piece clearfix">
+          <div class="one-third">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              <h3>{{ post.title }}</h3>
+            </a>
+          </div>
 
-      <ul>
-        {% for post in site.posts %}
-          {% if post.categories contains 'thoughts' %}
-            <li class="thoughts-piece">
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                <h3>{{ post.title }}</h3>
-              </a>
-              <p class="thoughts-blurb">{{ post.intro }}</p>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-  </div>
-</div>
+          <div class="two-thirds">
+            <h4 class="text-gray capitalize">{{ post.date | date: '%B %d, %Y' }}</h4>
+            <p>
+              {{ post.intro }}
+              <br><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Keep reading &rarr;</a>
+            </p>
+          </div>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>

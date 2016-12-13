@@ -26,7 +26,7 @@ _layout.scss
   		display: inline-block;
 
       @include media-query($mobile) {
-    		margin: 0 ms(1);
+    		margin: 0 ms(0);
     	}
   	}
   }

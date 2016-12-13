@@ -1,6 +1,6 @@
 ---
 layout: thoughts
-title:  "Fix the hate: a reading list"
+title:  "Design is not neutral"
 date:   2016-03-17 12:37:36 -0800
 category: thoughts
 permalink:   /thoughts/:title/
