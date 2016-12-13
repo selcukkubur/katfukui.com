@@ -57,12 +57,12 @@ a {
   cursor: pointer;
 
   &:visited {
-      color: $brand-color;
+    color: $brand-color;
   }
 
   &:hover {
-      color: $text-color;
-      background-color: $yellow;
+    color: $text-color;
+    background-color: $yellow;
   }
 }
 
