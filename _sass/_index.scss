@@ -3,7 +3,7 @@ _index.scss
 *==================================*/
 /* Index page */
 .index-wrapper {
-	@include j-center($max-width: 650px, $pad: 0);
+	@include j-center($max-width: 800px, $pad: 0);
 }
 
 .index-description {
