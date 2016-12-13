@@ -1,15 +1,13 @@
 // Modular Scale
 $ms-base:          1rem;
 $ms-ratio:         $golden;
-$rhythm-less:      ms(1);
 $rhythm:           ms(2);
 $rhythm-more:      ms(4);
 
 // Typography
+$base-font-family: "Source Code Pro", monospace;
+$title-font:       "Source Code Pro", monospace;
 $serif:            "PT Serif", serif;
-$monospace:        "Roboto Mono", monospace;
-$base-font-family: $monospace;
-$title-font:       $monospace;
 $base-font-size:   20px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
@@ -35,8 +33,8 @@ $teal:             #94C7B6;
 $white:            #ffffff;
 $beige:            #EFE8DC;
 $gray:             #eeeeee;
-$mid-gray:         darken($gray, 12%);
-$dark-gray:        darken($gray, 25%);
+$midgray:          darken($gray, 12%);
+$darkgray:         darken($gray, 25%);
 $navy:             #1C1F33;
 $yellow:           yellow;
 $twitter:          #55acee;
