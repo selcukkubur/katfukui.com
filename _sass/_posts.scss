@@ -22,17 +22,15 @@ _posts.scss
 
 .thoughts-list {
 	.thoughts-piece {
-		border-bottom: 1px solid $midgray;
-		padding-bottom: $rhythm;
+		margin-bottom: $rhythm;
 
 		&:last-child {
-			border-bottom: none;
 			padding-bottom: 0;
 		}
-	}
 
-	.thoughts-blurb {
-		font-family: $serif;
+    h3 {
+      display: inline;
+    }
 	}
 }
 
