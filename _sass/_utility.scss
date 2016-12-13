@@ -2,45 +2,50 @@
 _utility.scss
 *==================================*/
 
-.clearfix { @include j-cf(); }
+/* Text-related */
+.left {
+	text-align: left;
+}
 
-/* Text and typography */
-.left { text-align: left; }
+.center {
+	text-align: center;
+}
 
-.center { text-align: center; }
+.right {
+	text-align: right;
+}
 
-.right { text-align: right; }
-
-.italic { font-style: italic; }
+.italic {
+	font-style: italic;
+}
 
 .bold {
 	font-weight: bold;
 	font-family: $title-font;
 }
 
-.monospace { font-family: $monospace; }
-
-.serif { font-family: $serif; }
-
-.text-gray { color: $dark-gray; }
-
-.capitalize { text-transform: capitalize; }
 
 
 /* Borders */
 .border-top {
-	border-top: 1px solid $dark-gray;
+	border-top: 1px solid $darkgray;
 	padding-top: $rhythm;
 }
 
 
 
 /* Quick columns */
-.half { @include j-column(1/2); }
+.half {
+	@include j-column(1/2);
+}
 
-.one-third { @include j-column(1/3); }
+.one-third {
+	@include j-column(1/3);
+}
 
-.two-thirds { @include j-column(2/3); }
+.two-thirds {
+	@include j-column(2/3);
+}
 
 .half, .one-third, .two-thirds {
 	@media (max-width: 500px) {
@@ -51,13 +56,21 @@ _utility.scss
 
 
 /* Color backgrounds */
-.base-bg { background-color: $background-color; }
+.base-bg {
+	background-color: $background-color;
+}
 
-.gray { background-color: $gray; }
+.gray {
+	background-color: $gray;
+}
 
-.white { background-color: $white; }
+.white {
+	background-color: $white;
+}
 
-.beige { background-color: $beige; }
+.beige {
+	background-color: $beige;
+}
 
 .navy {
 	background-color: $navy;
