@@ -31,6 +31,10 @@ body {
 
 ul, ol {
   margin-left: $rhythm;
+
+  @include media-query($mobile) {
+		margin-left: $rhythm-less;
+	}
 }
 
 li {

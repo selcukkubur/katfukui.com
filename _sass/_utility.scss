@@ -2,7 +2,9 @@
 _utility.scss
 *==================================*/
 
+/* Clearfix */
 .clearfix { @include j-cf(); }
+
 
 /* Text and typography */
 .left { text-align: left; }
@@ -34,7 +36,6 @@ _utility.scss
 }
 
 
-
 /* Quick columns */
 .half { @include j-column(1/2); }
 
@@ -47,7 +48,6 @@ _utility.scss
 		@include j-column(1);
 	}
 }
-
 
 
 /* Color backgrounds */
@@ -74,7 +74,6 @@ _utility.scss
 		color: $white;
 	}
 }
-
 
 
 /* Color text */
