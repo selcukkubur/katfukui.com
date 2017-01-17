@@ -1,7 +1,7 @@
 <section class="thoughts-list fadeInAmate" id="work">
   <h4>Thoughts</h4>
   <ul>
-    {% for post in site.posts %}
+    {% for post in site.posts | sort: 'created_at' %}
       {% if post.categories contains 'thoughts' %}
         <li class="thoughts-piece clearfix">
           <div class="one-third">
