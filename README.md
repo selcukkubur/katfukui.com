@@ -1,4 +1,4 @@
-# katfukui.com v1.0
+# katfukui.com v2.0
 My personal website.
 
 ### Deets
