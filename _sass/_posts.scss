@@ -20,6 +20,14 @@ _posts.scss
 	}
 }
 
+.post-list {
+  padding-top: ms(5);
+
+  @include media-query($mobile) {
+		padding-top: ms(4);
+	}
+}
+
 .thoughts-list {
 	.thoughts-piece {
 		margin-bottom: $rhythm;

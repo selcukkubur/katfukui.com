@@ -2,6 +2,15 @@
 _layout.scss
 *==================================*/
 
+.padded-wrapper {
+	@include j-center($max-width: 800px, $pad: 0);
+	padding: ms(5) 0 $rhythm-more 0;
+
+  @include media-query($mobile) {
+		padding: ms(4) 0 ms(2) 0;
+	}
+}
+
 /* Site header */
 .site-header {
   top: 0;
@@ -9,6 +18,7 @@ _layout.scss
 	position: fixed;
 	width: 100%;
 	padding: 0;
+  background-color: transparent;
 	z-index: 100;
 }
 
@@ -62,11 +72,11 @@ _layout.scss
 
 /* Pages */
 .page-content {
-  margin-top: $rhythm-more;
-
-  @include media-query($mobile) {
-    margin-top: ms(4);
-  }
+  // padding-top: $rhythm-more;
+  //
+  // @include media-query($mobile) {
+  //   margin-top: ms(4);
+  // }
 }
 
 

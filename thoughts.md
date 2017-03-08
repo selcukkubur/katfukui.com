@@ -6,7 +6,7 @@ permalink: /thoughts/
 
 <div class="page-content">
   <div class="wrapper">
-    <div class="index-wrapper clearfix">
+    <div class="padded-wrapper clearfix">
       {% include thoughts-content.html %}
     </div>
   </div>

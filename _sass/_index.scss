@@ -1,13 +1,12 @@
 /*===================================
 _index.scss
 *==================================*/
-/* Index page */
-.index-wrapper {
-	@include j-center($max-width: 800px, $pad: 0);
-}
-
-.index-description {
-	padding-bottom: ms(3);
+.index-container {
+	height: 90vh;
+	align-items: center;
+	justify-content: center;
+	padding-top: $rhythm;
+	background-color: $beige;
 
 	@include media-query($mobile) {
 		padding-bottom: ms(0);
@@ -15,8 +14,15 @@ _index.scss
 	}
 }
 
+.index-description {
+	flex: 1 1 auto;
+	padding: 0 $rhythm-more;
+}
+
 .index-description-title {
+	font-size: ms(4);
 	line-height: 1.2;
+	margin-bottom: $rhythm-more;
 	text-decoration: underline;
 }
 
