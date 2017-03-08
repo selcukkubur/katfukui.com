@@ -18,10 +18,14 @@ _index.scss
 .index-description {
 	flex: 1 1 auto;
 	padding: 0 $rhythm-more;
+
+	@include media-query($laptop) {
+		padding: 0 ms(0);
+	}
 }
 
 .index-description-title {
-	font-size: ms(4);
+	font-size: ms(5);
 	line-height: 1.2;
 	margin-bottom: $rhythm-more;
 	text-decoration: underline;
@@ -32,6 +36,14 @@ _index.scss
 		background: -o-linear-gradient(left, $brand-color, #FFCC33);
 	  -webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
+	}
+
+	@include media-query($laptop) {
+		font-size: ms(4);
+	}
+
+	@include media-query($mobile) {
+		font-size: ms(3);
 	}
 }
 
