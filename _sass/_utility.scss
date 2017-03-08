@@ -36,12 +36,14 @@ _utility.scss
 
 .list-style-none { list-style: none; }
 
+/* Display */
+.v-hidden { visibility: hidden; }
+
 /* Borders */
 .border-top {
 	border-top: 1px solid $dark-gray;
 	padding-top: $rhythm;
 }
-
 
 /* Quick columns */
 .half { @include j-column(1/2); }

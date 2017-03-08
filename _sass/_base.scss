@@ -177,7 +177,7 @@ pre {
     vertical-align: middle;
 
     path {
-        fill: $white;
+        fill: $text-color;
     }
   }
 }
@@ -194,6 +194,10 @@ pre {
 
   a:hover {
     color: $text-color;
+  }
+
+  .icon path {
+    fill: $white;
   }
 }
 

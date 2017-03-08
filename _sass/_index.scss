@@ -2,7 +2,8 @@
 _index.scss
 *==================================*/
 .index-container {
-	height: 90vh;
+	height: 100vh;
+	min-height: 600px;
 	align-items: center;
 	justify-content: center;
 	padding-top: $rhythm;
@@ -24,6 +25,14 @@ _index.scss
 	line-height: 1.2;
 	margin-bottom: $rhythm-more;
 	text-decoration: underline;
+
+	span {
+		display: block;
+	  background-image: -webkit-linear-gradient(left, $brand-color, #FFCC33);
+		background: -o-linear-gradient(left, $brand-color, #FFCC33);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	}
 }
 
 /* Container for each work thumbnail */

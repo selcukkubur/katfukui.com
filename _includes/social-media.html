@@ -6,7 +6,9 @@
     {% include icon-github.html %}
   </li>
   <li>
-    <a href="http://dribbble.com/{{ site.dribbble_username}}" target="_blank"><img src="/images/icon-dribbble.svg" width="20" height="20" alt="dribbble" /></a>
+    {% include icon-dribbble.html %}
   </li>
-  <li><a href="mailto:{{ site.email }}"><img src="/images/icon-email.svg" width="20" height="20" alt="email" /></a></li>
+  <li>
+    {% include icon-email.html %}
+  </li>
 </ul>
