@@ -1,11 +1,22 @@
-<footer class="site-footer">
-
+<footer class="site-footer navy">
   <div class="wrapper">
+    <div class="one-third">
+      💖 {{ site.title }} {{ site.time | date: '%Y' }}
+    </div>
 
-    &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+    <div class="one-third footer-social">
+      <h4>Get in touch</h4>
+      {% include social-media.html %}
+    </div>
 
-    {% include social-media.html %}
-
+    <div class="one-third footer-nav">
+      <ul class="list-style-none">
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
-
 </footer>

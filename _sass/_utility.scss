@@ -5,11 +5,15 @@ _utility.scss
 /* Clearfix */
 .clearfix { @include j-cf(); }
 
+/* Flexbox */
+.d-flex { display: flex; }
+
+.flex-wrap { flex-wrap: wrap; }
 
 /* Text and typography */
 .left { text-align: left; }
 
-.center { text-align: center; }
+.text-center { text-align: center; }
 
 .right { text-align: right; }
 
@@ -30,13 +34,16 @@ _utility.scss
 
 .text-transform-none { text-transform: none; }
 
+.list-style-none { list-style: none; }
+
+/* Display */
+.v-hidden { visibility: hidden; }
 
 /* Borders */
 .border-top {
 	border-top: 1px solid $dark-gray;
 	padding-top: $rhythm;
 }
-
 
 /* Quick columns */
 .half { @include j-column(1/2); }
@@ -69,10 +76,12 @@ _utility.scss
 	}
 }
 
+.dusty-pink { background-color: $dusty-pink; }
+
 .teal {
 	background-color: $teal;
 
-	h4 {
+	h3, h4 {
 		color: $white;
 	}
 }

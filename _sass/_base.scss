@@ -184,10 +184,40 @@ pre {
 
 /* Footer */
 .site-footer {
-  text-align: center;
-  padding: ms(3) 0;
-  height: 50px;
+  padding: ms(3) 0 $rhythm-more 0;
+  height: 65px;
   @include j-cf();
+
+  a, a:visited {
+    color: $white;
+  }
+
+  a:hover {
+    color: $text-color;
+  }
+
+  .icon path {
+    fill: $white;
+  }
+
+  @include media-query($mobile) {
+    padding-top: $rhythm;
+    text-align: center;
+
+    .footer-social {
+      margin-top: $rhythm-less;
+      h4 { margin-bottom: ms(-1) }
+    }
+
+    .footer-nav {
+      display: none;
+    }
+
+    ul {
+      margin-left: ms(0);
+      margin-bottom: ms(0);
+    }
+  }
 }
 
 .social-media-list {
