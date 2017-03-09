@@ -31,6 +31,11 @@ _layout.scss
   ul.nav-right {
     float: right;
 
+		a, a:visited {
+			color: $text-color;
+			font-weight: 700;
+		}
+
   	li {
   		margin: 0 $rhythm-less;
   		display: inline-block;
@@ -53,12 +58,12 @@ _layout.scss
   	height: 35px;
   	margin-left: ms(1);
 
+		polygon, rect {
+			fill: $text-color;
+		}
+
     &:hover {
       background-color: $yellow;
-
-      polygon, rect {
-        fill: $text-color;
-      }
     }
 
     @include media-query($mobile) {
