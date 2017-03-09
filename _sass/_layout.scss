@@ -39,6 +39,10 @@ _layout.scss
     		margin: 0 ms(0);
     	}
   	}
+
+    a, a:visited {
+      color: $text-color;
+    }
   }
 
   .logo a, .contact a, .logo a:hover,
@@ -53,9 +57,12 @@ _layout.scss
   	height: 35px;
   	margin-left: ms(1);
 
+    polygon, rect {
+      fill: $text-color;
+    }
+
     &:hover {
-      background-color: yellow;
-      polygon, rect { fill: $text-color; }
+      background-color: $yellow;
     }
 
     @include media-query($mobile) {
