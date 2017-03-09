@@ -34,6 +34,8 @@ function getGradient() {
     grad1: gradientColors[random1],
     grad2: gradientColors[random2]
   }
+
+  //setTimeout(getGradient, 3000);
 }
 
 function generateGradient() {
@@ -45,6 +47,8 @@ function generateGradient() {
 
 window.onload = function() {
   if(document.getElementById('js-index')) {
-    generateGradient()
+    setInterval(function() {
+      generateGradient()
+    }, 3000);
   }
 }
