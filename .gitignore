@@ -3,3 +3,4 @@ _site
 .sass-cache
 .jekyll-metadata
 config.codekit
+images/.DS_Store
