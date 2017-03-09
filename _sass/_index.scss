@@ -10,8 +10,10 @@ _index.scss
 	background-color: $beige;
 
 	@include media-query($mobile) {
-		padding-bottom: ms(0);
+		padding: $rhythm-more 0 ms(0) 0;
 		max-width: 100%;
+		height: 70vh;
+		min-height: 80%;
 	}
 }
 
