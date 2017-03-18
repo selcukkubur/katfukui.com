@@ -11,11 +11,11 @@ intro: "A routine that I do every work day that keeps me productive and optimist
 {{ wrapper_white }}
 {{ writing }}
 ### Write. Every. Day.
-Productivity is a hot topic amongst lifehack-y, self-help-y listicles around the web. I can only imagine it's because staying productive is _really damn hard_. To do lists easily stack up and collect dust. They become an intimidating reminder that we aren't finishing what we set out to do. I've found that the key to my productivity lies in a combination of rigorous documentation of my day-to-day and... **confidence**.
+Productivity is a hot topic amongst lifehack-y listicles around the web. I can only imagine it's because staying productive is _really damn hard_. To-do lists easily stack up and collect dust. They become an intimidating reminder that we aren't finishing what we set out to do. For the past 9 months, I've found that the key to my productivity lies in a combination of rigorous documentation of my day-to-day and **confidence**.
 
 ##### Here's what I make sure I do by the end of every work day:
 
-1. Take 2-5 minutes to log all everything you did
+1. Take 2-5 minutes to log everything I did
 2. Write a to-do list for tomorrow with the most outstanding task at top
 
 I've found that jotting down important conversations, questions, and marinating thoughts with links to relevant GitHub conversations and pull requests helps me jump back in the next day.
