@@ -10,10 +10,8 @@ intro: "A routine that I do every work day that keeps me productive and optimist
 
 {{ wrapper_white }}
 {{ writing }}
-### [Enter clickbait title here]
-Productivity is a hot topic amongst lifehack-y, self-help-y listicles around the web. I can only imagine it's because staying productive is _really damn hard_. Maybe it's a nihilistic reminder that we'll be working until the day we die. Maybe the fire that lights our day-to-day passions is difficult to keep alive. But in the end, we want to become better at whatever we're doing, and staying productive is how we move forward at a steady pace.
-
-I've found that the key to my productivity lies in a combination of rigorous documentation of my day-to-day and... **confidence**.
+### Write. Every. Day.
+Productivity is a hot topic amongst lifehack-y, self-help-y listicles around the web. I can only imagine it's because staying productive is _really damn hard_. To do lists easily stack up and collect dust. They become an intimidating reminder that we aren't finishing what we set out to do. I've found that the key to my productivity lies in a combination of rigorous documentation of my day-to-day and... **confidence**.
 
 ##### Here's what I make sure I do by the end of every work day:
 
