@@ -2,36 +2,30 @@
 layout: index
 ---
 
-<div class="index-container d-flex flex-wrap fadeInAmate" id="js-index">
-  <div class="index-description text-center">
-    <h1 class="index-description-title">
-      <span id="js-gradient">Kat loves cats. And full-process design. && code.</span>
+<div class="vh-75 vh-100-l flex flex-wrap items-center justify-center pv2 pv5-l beige fadeInAmate" style="min-height:600px" id="js-index">
+  <div class="flex-auto ph2 ph6-l tc">
+    <h1 class="f1-m f-headline-l underline lh-title">
+      <span class="index-gradient" id="js-gradient">Kat loves cats. And full-process design. && code.</span>
     </h1>
   </div>
 </div>
 
-<div class="color-wrapper text-center teal">
-  <div class="wrapper">
-    <h3>🐱 Currently a product designer at <a href="https://github.com/">GitHub</a>, empowering communities ✌️</h3>
+<div class="pa4 pv5-l ph7-l clearfix" id="all">
+  <h4>Some things</h4>
+
+  <div class="dt w-100 mb4">
+    <a class="Card f5 no-underline one-third" href="https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e#.ovslcv5t7">
+      ✏️<br>
+      <span>Design portfolio workflow</span>
+    </a>
+
+    <a class="Card f5 no-underline one-third" href="{{ site.baseurl }}/work/type">
+      😎<br>
+      <span>Inky explorations</span>
+    </a>
   </div>
+
+  {% include thoughts-content.html %}
 </div>
 
-<div class="wrapper">
-  <div class="padded-wrapper">
-    <h4>Some things</h4>
-
-    <div class="card-container">
-      <a class="post-link card one-third" href="https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e#.ovslcv5t7">
-        ✏️<br>
-        <span>Design portfolio workflow</span>
-      </a>
-
-      <a class="post-link card one-third" href="{{ site.baseurl }}/work/type">
-        😎<br>
-        <span>Inky explorations</span>
-      </a>
-    </div>
-
-    {% include thoughts-content.html %}
-  </div>
-</div>
+{% include about-content.html %}

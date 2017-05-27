@@ -1,22 +1,10 @@
-<footer class="site-footer navy">
-  <div class="wrapper">
-    <div class="one-third">
-      💖 {{ site.title }} {{ site.time | date: '%Y' }}
-    </div>
+<footer class="pa4 pv5-l ph6-l tc navy clearfix">
+  <div class="f3 fl-ns db mb4">
+    {{ site.title }}
+  </div>
 
-    <div class="one-third footer-social">
-      <h4>Get in touch</h4>
-      {% include social-media.html %}
-    </div>
-
-    <div class="one-third footer-nav">
-      <ul class="list-style-none">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
+  <div class="fr-ns tr-ns db footer-social">
+    <h4>Get in touch</h4>
+    {% include social-media.html %}
   </div>
 </footer>

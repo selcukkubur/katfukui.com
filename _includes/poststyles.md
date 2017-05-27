@@ -15,23 +15,23 @@
 {% endcapture %}
 
 {% capture wrapper_base %}
-<div class="color-wrapper base-bg" markdown="1">
+<div class="w-100 pa4 pa6-l base-bg" markdown="1">
 {% endcapture %}
 
 {% capture wrapper_white %}
-<div class="color-wrapper white" markdown="1">
+<div class="w-100 pa4 pa6-l" markdown="1">
 {% endcapture %}
 
 {% capture wrapper_gray %}
-<div class="color-wrapper gray" markdown="1">
+<div class="w-100 pa4 pa6-l gray" markdown="1">
 {% endcapture %}
 
 {% capture wrapper_beige %}
-<div class="color-wrapper beige" markdown="1">
+<div class="w-100 pa4 pa6-l beige" markdown="1">
 {% endcapture %}
 
 {% capture wrapper_navy %}
-<div class="color-wrapper navy" markdown="1">
+<div class="w-100 pa4 pa6-l navy" markdown="1">
 {% endcapture %}
 
 {% capture full_image %}

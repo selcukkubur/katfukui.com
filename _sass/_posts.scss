@@ -42,12 +42,6 @@ _posts.scss
 	}
 }
 
-.post-link {
-  font-family: $base-font-family;
-  font-weight: 700;
-  font-size: ms(0);
-}
-
 /* Thoughts Styling */
 .thoughts-header {
   padding: ms(4) 0 ms(3) 0;
@@ -117,10 +111,6 @@ _posts.scss
 
   .full-bleed img {
     max-width: 100%;
-  }
-
-  @include media-query($mobile) {
-    letter-spacing: $m-serif-letter-spacing;
   }
 }
 

@@ -2,11 +2,15 @@
 _base.scss
 *==================================*/
 
-html, body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
+html, body,
+blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
 }
 
 /* Basic styles */
@@ -18,29 +22,16 @@ html {
 }
 
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font-weight: $base-font-weight;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
   color: $text-color;
   background-color: $background-color;
   letter-spacing: $sans-serif-letter-spacing;
 
   @include media-query($mobile) {
-		font-size: $m-font-size;
-    letter-spacing: $m-sans-serif-letter-spacing;
-	}
-}
-
-ul, ol {
-  margin-left: $rhythm;
-
-  @include media-query($mobile) {
-		margin-left: $rhythm-less;
-	}
-}
-
-li {
-  > ul,
-  > ol {
-       margin-bottom: 0;
+    font-size: 1rem;
   }
 }
 
@@ -56,60 +47,18 @@ mark {
 
 
 a {
-  color: $brand-color;
-  text-decoration: none;
+  color: $text-color;
+  text-decoration: underline;
   cursor: pointer;
 
   &:visited {
-    color: $brand-color;
+    color: $text-color;
   }
 
   &:hover {
-    color: $text-color;
+    text-decoration: none;
     background-color: $yellow;
   }
-}
-
-
-
-/* Margin-bottom */
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $rhythm;
-}
-
-section {
-  margin-bottom: $rhythm;
-
-  @include media-query($mobile) {
-    margin-bottom: ms(1);
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: ms(0);
-}
-
-* > p:last-child {
-  margin-bottom: 0;
-}
-
-
-
-/* Images and figures */
-img {
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-font-size;
-    box-sizing: border-box;
 }
 
 
@@ -178,66 +127,6 @@ pre {
 
     path {
         fill: $text-color;
-    }
-  }
-}
-
-/* Footer */
-.site-footer {
-  padding: ms(3) 0 $rhythm-more 0;
-  height: 65px;
-  @include j-cf();
-
-  a, a:visited {
-    color: $white;
-  }
-
-  a:hover {
-    color: $text-color;
-  }
-
-  .icon path {
-    fill: $white;
-  }
-
-  @include media-query($mobile) {
-    padding-top: $rhythm;
-    text-align: center;
-
-    .footer-social {
-      margin-top: $rhythm-less;
-      h4 { margin-bottom: ms(-1) }
-    }
-
-    .footer-nav {
-      display: none;
-    }
-
-    ul {
-      margin-left: ms(0);
-      margin-bottom: ms(0);
-    }
-  }
-}
-
-.social-media-list {
-  list-style: none;
-  margin-left: 0;
-
-  li {
-    display: inline;
-    margin: 0 ms(-1);
-
-    img {
-      vertical-align: middle; }
-
-    a {
-      padding-bottom: 0;
-
-      &:hover {
-        opacity: 0.6;
-        background-color: transparent;
-      }
     }
   }
 }
