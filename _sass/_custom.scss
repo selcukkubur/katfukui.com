@@ -43,6 +43,7 @@ _custom.scss
 .about-image {
 	background: url(../images/kat.png) center;
 	background-size: cover;
+  height: 500px;
 
 	@media (max-width: 700px) {
 		height: 350px;

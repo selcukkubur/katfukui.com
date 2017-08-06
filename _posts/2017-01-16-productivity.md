@@ -1,6 +1,6 @@
 ---
 layout: thoughts
-title:  "My 5 min daily habit"
+title:  "5 min/day"
 date:   2017-01-16 12:37:36 -0800
 category: thoughts
 permalink:   /thoughts/:title/
