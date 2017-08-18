@@ -11,15 +11,8 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "tachyons/tachyons-sass/tachyons.scss",
-  "jeet/jeet",
-  "modular-scale",
   "variables",
   "base",
   "custom",
-  //"typography",
-  "layout",
-  "posts",
-  "pagination",
-  "syntax-highlighting",
-  "utility"
+  "syntax-highlighting"
 ;

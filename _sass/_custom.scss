@@ -2,6 +2,14 @@
 _custom.scss
 *==================================*/
 
+// Typography
+
+.serif {
+  font-family: $serif;
+  letter-spacing: $serif-letter-spacing;
+}
+
+
 // COMPONENTS
 
 // Card
@@ -27,6 +35,18 @@ _custom.scss
   }
 }
 
+
+// Header logo
+
+.logo {
+  polygon, rect {
+    fill: $text-color;
+  }
+
+  &:hover {
+    background-color: $yellow;
+  }
+}
 
 // Gradient style on index hero
 
@@ -92,3 +112,52 @@ _custom.scss
 }
 
 .clearfix { @include j-cf(); }
+
+
+// Color backgrounds
+
+.beige { background-color: $beige; }
+
+.dusty-pink { background-color: $dusty-pink; }
+
+.bg-teal { background-color: $teal; }
+
+
+// Colors
+
+.teal { color: $teal }
+
+
+// To deprecate: old posts styling
+
+.post-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+
+  img {
+    max-width: 700px;
+    width: 100%;
+    margin: $spacing-medium 0;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+
+    @include media-query($mobile) {
+  		margin: 0;
+  	}
+  }
+
+  > :last-child {
+      padding-bottom: 0;
+  }
+
+  @include media-query($mobile) {
+    padding: 0 ms(0);
+  }
+}
+
+.post-wrapper-900 {
+  max-width: 900px;
+  margin: 0 auto;
+}

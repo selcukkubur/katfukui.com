@@ -3,39 +3,23 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header navy">
-    <div class="post-title text-center">
-      <h1 itemprop="headline">{{ page.title }}</h1>
-    </div>
-    <div class="post-wrapper">
-      <ul>
-        {% for meta in page.meta %}
-          <li class="post-meta">
-            <span class="post-meta-title bold">{{ meta[0] }}</span>
-            <br />{{ meta[1] }}
-          </li>
-        {% endfor %}
-      </ul>
-      {{  page.intro }}
-    </div>
+  <header class="ph3 ph7-l pv5 bg-navy white clearfix">
+    <h1 class="tc mb4 mb5-ns" itemprop="headline">{{ page.title }}</h1>
+    <ul class="fl w-100 w-40-ns list f5">
+      {% for meta in page.meta %}
+        <li class="mb2 mb3-ns">
+          <span class="teal b">{{ meta[0] }}</span>
+          <br />{{ meta[1] }}
+        </li>
+      {% endfor %}
+    </ul>
+    <div class="fl w-100 w-60-ns mt4 mt0-ns">{{  page.intro }}</div>
   </header>
 
-  <div class="post-content fadeInAmate" itemprop="articleBody">
+  <div class="serif fadeInAmate" itemprop="articleBody">
     {{ content }}
   </div>
 
-  <div class="paginate">
-    {% if page.next.url %}
-      <a class="paginate-left" href="{{page.next.url}}">&larr;<span class="paginate-left-text"> {{page.next.title}}</span></a>
-    {% else %}
-      <div class="paginate-left"></div>
-    {% endif %}
-    <a class="paginate-home" href="{{ site.baseurl }}/">All</a>
-    {% if page.previous.url %}
-      <a class="paginate-right" href="{{page.previous.url}}"><span class="paginate-right-text">{{page.previous.title}} </span>&rarr;</a>
-    {% else %}
-      <div class="paginate-right"></div>
-    {% endif %}
-  </div>
+  {% include pagination.html %}
 
 </article>

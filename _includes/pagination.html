@@ -1,0 +1,13 @@
+<div class="dt w-100 bt bb b--black-20 clearfix">
+  {% if page.next.url %}
+    <a class="dtc w-40 pv5 tc link" href="{{page.next.url}}"><span class="mr2">👈</span><span class="dn dib-ns"> {{page.next.title}}</span></a>
+  {% else %}
+    <div class="dtc w-40 pv5"></div>
+  {% endif %}
+  <a class="dtc w-20 pv5 tc bl br b--black-20" href="{{ site.baseurl }}/#all">All</a>
+  {% if page.previous.url %}
+    <a class="dtc w-40 pv5 tc link" href="{{page.previous.url}}"><span class="dn dib-ns">{{page.previous.title}} </span><span class="ml2">👉</span></a>
+  {% else %}
+    <div class="dtc w-40 pv5"></div>
+  {% endif %}
+</div>

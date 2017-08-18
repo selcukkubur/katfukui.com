@@ -1,14 +1,7 @@
-<header class="site-header">
-
-  <nav class="nav">
-		<a href="{{ site.baseurl }}/">{% include icon-logo.html %}</a>
-		<ul class="nav-right">
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-		</ul>
+<header class="fixed top-0 left-0 z-5 w-100 p0 bg-transparent">
+  <nav class="nav relative mt3 ph3 db">
+		<a href="{{ site.baseurl }}/">
+      <span class="logo fl v-mid bn" style="width:35px; height:35px">{% include icon-logo.svg %}</span>
+    </a>
 	</nav>
-
 </header>

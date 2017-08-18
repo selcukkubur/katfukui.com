@@ -39,12 +39,6 @@ em {
   font-family: $serif;
 }
 
-mark {
-	display: inline;
-	color: $text-color;
-	@include j-cf();
-}
-
 
 a {
   color: $text-color;
@@ -104,17 +98,6 @@ pre {
         padding-right: 0;
         padding-left: 0;
     }
-}
-
-
-/* Wrapper */
-.wrapper {
-  @include j-center($max_width: 1600px, $pad: 6%);
-  @include j-cf();
-	@include media-query($mobile) {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
 }
 
 /* Icons*/
