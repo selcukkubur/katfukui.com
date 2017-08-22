@@ -1,16 +1,10 @@
-<section id="work" class="mb5 mb6-ns">
-  <h2>💭</h2>
-  <ul class="list">
-    {% for post in site.posts %}
-      {% if post.categories contains 'thoughts' %}
-        <li>
-          <a class="f4 f2-ns lh-title dib" href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}
-          </a>
+{% for post in site.posts %}
+  {% if post.categories contains 'thoughts' %}
+    <div class="black-20 f1 dn di-ns mh2">/</div>
 
-          <h4 class="dib silver">{{ post.date | date: '%B %d, %Y' }}</h4>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</section>
+    <li class="f4 f1-l dib di-ns">
+      💭 <a href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
