@@ -3,7 +3,9 @@ var gradientColors = [
   '#FE9B1E',
   '#E1AD9D',
   '#94C7B6',
-  '#1C1F33'
+  '#1C1F33',
+  '#CFBAE1',
+  '#FCDC69'
 ]
 const gradMin = 0
 const gradMax = gradientColors.length

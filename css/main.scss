@@ -10,17 +10,9 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "jeet/jeet",
-  "modular-scale",
+  "tachyons/tachyons-sass/tachyons.scss",
   "variables",
   "base",
-  "card",
-  "typography",
-  "layout",
-  "posts",
-  "pagination",
-  "index",
-  "about",
-  "syntax-highlighting",
-  "utility"
+  "custom",
+  "syntax-highlighting"
 ;

@@ -2,36 +2,35 @@
 layout: index
 ---
 
-<div class="index-container d-flex flex-wrap fadeInAmate" id="js-index">
-  <div class="index-description text-center">
-    <h1 class="index-description-title">
-      <span id="js-gradient">Kat loves cats. And full-process design. && code.</span>
+<div class="vh-75 flex flex-wrap items-center justify-center mt5 pa3 ph6-l fadeInAmate" id="js-index">
+  <div class="flex-auto">
+    <h1 class="f1 f-headline-l lh-title">
+      <span class="index-gradient" id="js-gradient">Kat loves cats. And full-process design. && code.</span>
     </h1>
   </div>
 </div>
 
-<div class="color-wrapper text-center teal">
-  <div class="wrapper">
-    <h3>🐱 Currently a product designer at <a href="https://github.com/">GitHub</a>, empowering communities ✌️</h3>
-  </div>
-</div>
+<div class="pa4 ph6-l clearfix" id="all" style="line-height: 2.0">
+  <ul class="list mb1 mb6-ns">
+    <li class="f4 f2-m f1-l dib di-ns mb4 mb0-ns">
+      💻 <a href="https://github.com/blog/2380-new-community-tools">Community tools</a>
+    </li>
 
-<div class="wrapper">
-  <div class="padded-wrapper">
-    <h4>Some things</h4>
+    <div class="black-20 f1 dn di-ns mh2">/</div>
 
-    <div class="card-container">
-      <a class="post-link card one-third" href="https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e#.ovslcv5t7">
-        ✏️<br>
-        <span>Design portfolio workflow</span>
-      </a>
+    <li class="f4 f2-m f1-l dib di-ns mb4 mb0-ns">
+      ✏️ <a href="https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e#.ovslcv5t7">Design portfolio workflow</a>
+    </li>
 
-      <a class="post-link card one-third" href="{{ site.baseurl }}/work/type">
-        😎<br>
-        <span>Inky explorations</span>
-      </a>
-    </div>
+    <div class="black-20 f1 dn di-ns mh2">/</div>
+
+    <li class="f4 f2-m f1-l dib di-ns mb4 mb0-ns">
+      😎 <a href="{{ site.baseurl }}/work/type">
+        Inky explorations</a>
+    </li>
 
     {% include thoughts-content.html %}
-  </div>
+  </ul>
 </div>
+
+{% include about-content.html %}

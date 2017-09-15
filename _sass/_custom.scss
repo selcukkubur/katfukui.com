@@ -1,0 +1,163 @@
+/*===================================
+_custom.scss
+*==================================*/
+
+// Typography
+
+.serif {
+  font-family: $serif;
+  letter-spacing: $serif-letter-spacing;
+}
+
+
+// COMPONENTS
+
+// Card
+
+.Card {
+  font-family: $monospace;
+  font-weight: 700;
+  height: 8rem;
+  box-sizing: border-box;
+  display: table-cell;
+  margin-bottom: $spacing-medium;
+  padding: $spacing-medium;
+  border: 2px solid $mid-gray;
+  border-radius: 3px;
+}
+
+.Card:hover {
+  background-color: transparent;
+  border-color: $dark-gray;
+
+  span {
+    background-color: $yellow;
+  }
+}
+
+
+// Header logo
+
+.logo {
+  polygon, rect {
+    fill: $text-color;
+  }
+
+  &:hover {
+    background-color: $yellow;
+  }
+}
+
+// Gradient style on index hero
+
+.index-gradient {
+	display: block;
+  background-image: -webkit-linear-gradient(left, $dusty-pink, $teal);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+// Headshot of me on index page
+
+.about-image {
+	background: url(../images/kat.png) center;
+	background-size: cover;
+  height: 500px;
+
+	@media (max-width: 700px) {
+		height: 350px;
+		margin-bottom: $spacing-medium;
+	}
+}
+
+
+// Site footer
+
+.footer-social {
+	.icon path {
+		fill: $white;
+	}
+}
+
+.social-media-list {
+  li {
+    img { vertical-align: middle; }
+
+    a {
+      padding-bottom: 0;
+
+      &:hover {
+        opacity: 0.6;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+
+// Apply a clearfix to an element.
+
+@mixin j-cf() {
+  *zoom: 1;
+
+  &:before, &:after {
+    content: '';
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+.clearfix { @include j-cf(); }
+
+
+// Color backgrounds
+
+.beige { background-color: $beige; }
+
+.dusty-pink { background-color: $dusty-pink; }
+
+.bg-teal { background-color: $teal; }
+
+
+// Colors
+
+.teal { color: $teal }
+
+
+// To deprecate: old posts styling
+
+.post-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+
+  img {
+    max-width: 700px;
+    width: 100%;
+    margin: $spacing-medium 0;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+
+    @include media-query($mobile) {
+  		margin: 0;
+  	}
+  }
+
+  > :last-child {
+      padding-bottom: 0;
+  }
+
+  @include media-query($mobile) {
+    padding: 0 ms(0);
+  }
+}
+
+.post-wrapper-900 {
+  max-width: 900px;
+  margin: 0 auto;
+}

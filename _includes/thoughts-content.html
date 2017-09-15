@@ -1,24 +1,10 @@
-<section class="thoughts-list fadeInAmate" id="work">
-  <h4>Some thoughts</h4>
-  <ul>
-    {% for post in site.posts %}
-      {% if post.categories contains 'thoughts' %}
-        <li class="thoughts-piece clearfix">
-          <div class="one-third">
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-              <h3>{{ post.title }}</h3>
-            </a>
-          </div>
+{% for post in site.posts %}
+  {% if post.categories contains 'thoughts' %}
+    <div class="black-20 f1 dn di-ns mh2">/</div>
 
-          <div class="two-thirds">
-            <h4 class="text-gray text-capitalize">{{ post.date | date: '%B %d, %Y' }}</h4>
-            <p>
-              {{ post.intro }}
-              <br><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Keep reading &rarr;</a>
-            </p>
-          </div>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</section>
+    <li class="f4 f2-m f1-l dib di-ns mb4 mb0-ns">
+      💭 <a href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
