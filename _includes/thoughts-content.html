@@ -1,9 +1,18 @@
 {% for post in site.posts %}
+  {% if post.categories contains 'fun' %}
+    <div class="black-20 f1 dn di-ns mh2">/</div>
+
+    <li class="f4 f2-m f1-l dib di-ns mb4 mb0-ns">
+      {{ post.emoji }} <a href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.title }}</a>
+    </li>
+  {% endif %}
+
   {% if post.categories contains 'thoughts' %}
     <div class="black-20 f1 dn di-ns mh2">/</div>
 
     <li class="f4 f2-m f1-l dib di-ns mb4 mb0-ns">
-      💭 <a href="{{ post.url | prepend: site.baseurl }}">
+      {{ post.emoji }} <a href="{{ post.url | prepend: site.baseurl }}">
         {{ post.title }}</a>
     </li>
   {% endif %}
