@@ -55,14 +55,14 @@ items:
   {% for item in sorted_items %}
     <article class="fl w-100 w-50-m w-third-l pa2 pa3-l monospace">
       <div class="br2 ba b--black-10 pa2 pa2 pa3-ns box-shadow">
-        <div class="tc">
-          <a class="no-underline no-hover" href="{{ item.link }}">
-            <img src="http://tachyons.io/img/avatar_1.jpg" class="br-100 h3 w3 center">
-            <h1 class="serif f5 f4-l">{{ item.name }}</h1>
-          </a>
+        <div class="flex justify-between">
+          <div>
+            <a href="{{ item.link }}"><h1 class="serif f5 f4-l mb0">{{ item.name }}</h1></a>
+            <span class="Dot bg-{{ item.tag }}"></span> <span class="f6 black-50 b dib">{{ item.type }}</span>
+          </div>
+          <img src="http://tachyons.io/img/avatar_1.jpg" class="br2 h3 w3">
         </div>
         <p class="f6 lh-copy measure mt2 mid-gray mb1">{{ item.note }}</p>
-        <span class="Dot bg-{{ item.tag }}"></span> <span class="f6 black-50 b dib">{{ item.type }}</span>
       </div>
     </article>
   {% endfor %}
