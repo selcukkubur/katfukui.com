@@ -14,9 +14,19 @@ permalink: /coffee/
 {{ wrapper_white }}
 
 {{ writing }}
-I started learning more about coffee, particularly pourovers, at the beginning of 2017. When it comes to making any other food or beverage, I never felt a connection. But when it came to understanding how even the most minute variable can effect the complexity of a cup of coffee, I was hooked. I started keeping a notebook of all my experiments and a spreedsheet of craft beans I tried.  
+I started learning more about coffee, particularly pourovers, mid-2017. It's no secret that I'm not exactly the most gifted when it comes to making anything remotely edible. But timing an even pour in order to extract sweet berries instead of bitter tangs? Finding just the right grind size to get a balanced body? I was hooked.
 
-<h1 class="dib bb b--lightest-blue mt4" style="line-height:0.6;border-width:8px">Beginner's essentials</h1>
+I started keeping a notebook of all my experiments. A spreadsheet of craft beans I've tried with tasting notes. Not only did I enjoy the scientific approach to improving my skills, I began looking forward to having my own little morning ritual.
+
+These are my continuous goals by making coffee:
+<ul class="pl5">
+  <li>Improve my palette to distinguish a range of notes</li>
+  <li>Quickly adapt to different bean origins and roasts</li>
+</ul>
+
+Making coffee will certainly be a hobby I continue to work on for life. If you're just starting out, here's the gear and resources I used (and still use) to help you on your way! I hope you find as much joy in this ritual that I have. 😊
+
+<h2 class="dib bb b--lightest-blue mt5" style="line-height:0.6;border-width:8px">Beginner's essentials</h2>
 
 If you're just getting started with making pourovers at home, here's what I recommend to get started. At the very least, you'll want a dripper, grinder, scale, and kettle.
 </div>
@@ -40,7 +50,7 @@ If you're just getting started with making pourovers at home, here's what I reco
 </div>
 
 {{ writing }}
-  <h2>Also important...</h2>
+  <h3>Also important...</h3>
 
   <div class="flex flex-wrap flex-row mb3 mb4-l">
     {% assign more_essentials = coffee.items | where: "tag", "essential_plus" %}
@@ -59,7 +69,7 @@ If you're just getting started with making pourovers at home, here's what I reco
     {% endfor %}
   </div>
 
-  <h1 class="dib bb b--light-pink mt4" style="line-height:0.6;border-width:8px">Guides and books</h1>
+  <h2 class="dib bb b--light-pink mt4" style="line-height:0.6;border-width:8px">Guides and books</h2>
 
   [Kalita Wave Coffee Brewing Intensive](https://www.youtube.com/watch?v=mupueSMHBJQ)
   <br>Nick Cho of Wrecking Ball is someone I continuously look to for self-taught guidance. This video is ~5 min and was a huge help when I first started out.
