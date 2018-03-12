@@ -127,6 +127,24 @@ _custom.scss
   box-shadow: 0 1px 1px $black-20 !important
 }
 
+// Lists
+
+.post ul {
+  padding-left: 3rem;
+
+  @include media-query($mobile) {
+    padding-left: 1rem;
+  }
+}
+
+.post ol {
+  padding-left: 2rem;
+
+  li {
+    padding-left: 0.5rem;
+  }
+}
+
 
 // To deprecate: old posts styling
 

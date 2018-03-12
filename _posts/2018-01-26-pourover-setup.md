@@ -12,15 +12,7 @@ permalink: /coffee/
 {{ wrapper_white }}
 
 {{ writing }}
-I started learning more about coffee, particularly pourovers, mid-2017. It's no secret that I'm not exactly the most gifted when it comes to making anything remotely edible. But timing an even pour in order to extract sweet berries instead of bitter tangs? Finding just the right grind size to get a balanced body? I was hooked.
-
-I started keeping a notebook of all my experiments. A spreadsheet of craft beans I've tried with tasting notes. Not only did I enjoy the scientific approach to improving my skills, I began looking forward to having my own little morning ritual.
-
-These are my continuous goals by making coffee:
-<ul class="pl5">
-  <li>Improve my palette to distinguish a range of notes</li>
-  <li>Quickly adapt to different bean origins and roasts</li>
-</ul>
+I started learning more about coffee, particularly pourovers, mid-2017. It's no secret that I'm not exactly the most gifted when it comes to making anything remotely edible. But timing an even pour in order to extract sweet berries instead of bitter tangs? Finding just the right grind size to get a balanced body? I was hooked. Not only did I enjoy the scientific approach to improving my skills, I began looking forward to having my own little morning ritual.
 
 Making coffee will certainly be a hobby I continue to work on for life. If you're just starting out, here's the gear and resources I used (and still use) to help you on your way! I hope you find as much joy in this ritual that I have. 😊
 
@@ -77,6 +69,14 @@ If you're just getting started with making pourovers at home, here's what I reco
 
   [How to Make Coffee: The Science Behind the Bean](http://amzn.to/2DRGvpq)
   <br>I wanted to know more about the history and scientific breakdown of what makes coffee so great!
+
+  <h2 class="dib bb b--light-yellow mt4" style="line-height:0.6;border-width:8px">Beans!</h2>
+
+  And of course, the fun stuff: beans! When you're just starting out, be aware that it's all a learning process. Don't be discouraged if you can't quite develop the flavor profiles printed on the bag. 😄 Some notes here:
+  * When trying to tweak the taste of your pourovers, remember to adjust the grind size of your beans. Too bitter? Try a courser grind. Too sour or flat? Try a finer grind.
+  * Buy beans from your local roastery! Build relationships and ask your baristas for brewing advice. If you're in the east bay, beans I've been liking are [Aka Coffee](https://www.aka.coffee) and [Bicycle Oakland](https://www.bicyclecoffeeco.com).
+
+  Enjoy your coffee! ☕
 </div>
 
 {{ end-block }}
