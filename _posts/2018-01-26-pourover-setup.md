@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 emoji: ☕
 title: "Coffee at home"
 category: fun

@@ -129,7 +129,7 @@ _custom.scss
 
 // Lists
 
-.post ul {
+.post-body ul {
   padding-left: 3rem;
 
   @include media-query($mobile) {
@@ -137,7 +137,7 @@ _custom.scss
   }
 }
 
-.post ol {
+.post-body ol {
   padding-left: 2rem;
 
   li {
