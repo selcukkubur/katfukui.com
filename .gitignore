@@ -2,5 +2,6 @@ _drafts
 _site
 .sass-cache
 .jekyll-metadata
+assets/fonts
 config.codekit
 images/.DS_Store

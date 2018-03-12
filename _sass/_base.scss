@@ -11,6 +11,13 @@ dl, dd, ol, ul, figure {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
+  font-weight: 100;
+}
+
+.post-body {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+  }
 }
 
 /* Basic styles */
@@ -25,6 +32,8 @@ body {
   font-weight: $base-font-weight;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  font-feature-settings:"kern" 1;
+  font-kerning: normal;
   line-height: $base-line-height;
   color: $text-color;
   background-color: $background-color;
