@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="ph4 ph0-ns pt5 measure center">
+      <h1 class="lh-title mb3" itemprop="headline">{{ page.title }}</h1>
+      {% if page.intro %}
+        <p class="f6 f5-ns">{{ page.intro }}</p>
+      {% endif %}
+      <p class="f5 b black-50">{{ page.date | date: '%b %d, %Y' }}</p>
+      <div class="mt4 mt5-ns w-20 center" style="height:8px;background-image: -webkit-linear-gradient(45deg, {{ page.gradient }})"></div>
+  </header>
+
+  <div class="serif fadeInAmate" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {% include pagination.html %}
+
+</article>

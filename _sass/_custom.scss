@@ -9,32 +9,25 @@ _custom.scss
   letter-spacing: $serif-letter-spacing;
 }
 
+.monospace {
+  font-family: $monospace;
+}
+
+.no-hover:hover {
+  background-color: transparent;
+}
+
 
 // COMPONENTS
 
-// Card
+// Card dot
 
-.Card {
-  font-family: $monospace;
-  font-weight: 700;
-  height: 8rem;
-  box-sizing: border-box;
-  display: table-cell;
-  margin-bottom: $spacing-medium;
-  padding: $spacing-medium;
-  border: 2px solid $mid-gray;
-  border-radius: 3px;
+.Dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
-
-.Card:hover {
-  background-color: transparent;
-  border-color: $dark-gray;
-
-  span {
-    background-color: $yellow;
-  }
-}
-
 
 // Header logo
 
@@ -118,7 +111,7 @@ _custom.scss
 
 .beige { background-color: $beige; }
 
-.dusty-pink { background-color: $dusty-pink; }
+.bg-dusty-pink { background-color: $dusty-pink; }
 
 .bg-teal { background-color: $teal; }
 
@@ -126,6 +119,31 @@ _custom.scss
 // Colors
 
 .teal { color: $teal }
+
+
+// Box-shadow
+
+.box-shadow {
+  box-shadow: 0 1px 1px $black-20 !important
+}
+
+// Lists
+
+.post ul {
+  padding-left: 3rem;
+
+  @include media-query($mobile) {
+    padding-left: 1rem;
+  }
+}
+
+.post ol {
+  padding-left: 2rem;
+
+  li {
+    padding-left: 0.5rem;
+  }
+}
 
 
 // To deprecate: old posts styling

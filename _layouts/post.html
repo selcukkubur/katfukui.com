@@ -4,7 +4,7 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="ph3 ph7-l pv5 bg-navy white clearfix">
-    <h1 class="tc mb4 mb5-ns" itemprop="headline">{{ page.title }}</h1>
+    <h1 class="tc mb4 mb5-ns" itemprop="headline">{{ page.title }}</h1>s
     <ul class="fl w-100 w-40-ns list f5">
       {% for meta in page.meta %}
         <li class="mb2 mb3-ns">
@@ -13,7 +13,9 @@ layout: default
         </li>
       {% endfor %}
     </ul>
-    <div class="fl w-100 w-60-ns mt4 mt0-ns">{{  page.intro }}</div>
+    <div class="fl w-100 w-60-ns mt4 mt0-ns">
+      {{  page.intro }}
+    </div>
   </header>
 
   <div class="serif fadeInAmate" itemprop="articleBody">
