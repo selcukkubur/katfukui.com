@@ -9,8 +9,6 @@ permalink: /coffee/
 ---
 {% include poststyles.md %}
 
-{% jsonball coffee from file /Users/katmeister/projects/katmeister.github.io/_includes/coffee.json %}
-
 {{ wrapper_white }}
 
 {{ writing }}
@@ -32,7 +30,7 @@ If you're just getting started with making pourovers at home, here's what I reco
 </div>
 
 <div class="flex flex-wrap flex-row mb3 mb4-l">
-  {% assign essentials = coffee.items | where: "tag", "essential" %}
+  {% assign essentials = site.data.coffee.items | where: "tag", "essential" %}
   {% for item in essentials %}
     <article class="fl w-100 w-50-ns pa2 pa3-l monospace">
       <div class="flex-l items-center br2 ba b--black-05 pa3 pa4-ns box-shadow">
@@ -53,7 +51,7 @@ If you're just getting started with making pourovers at home, here's what I reco
   <h3>Also important...</h3>
 
   <div class="flex flex-wrap flex-row mb3 mb4-l">
-    {% assign more_essentials = coffee.items | where: "tag", "essential_plus" %}
+    {% assign more_essentials = site.data.coffee.items | where: "tag", "essential_plus" %}
     {% for item in more_essentials %}
       <article class="fl w-100 w-50-ns">
         <div class="flex-l items-center">

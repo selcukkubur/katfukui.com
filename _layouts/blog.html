@@ -3,14 +3,13 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="pv5 tc" style="background-image: -webkit-linear-gradient(45deg, {{ page.gradient }})">
-    <h1 itemprop="headline">{{ page.title }}</h1><br>
-    <div class="w-50-ns center">
+  <header class="ph4 ph0-ns pt5 measure center">
+      <h1 class="lh-title mb3" itemprop="headline">{{ page.title }}</h1>
       {% if page.intro %}
-        <div class="f5 f4-ns serif">{{  page.intro }}</div>
+        <p class="f6 f5-ns">{{ page.intro }}</p>
       {% endif %}
-      <span class="f6 b-ns black-50">{{ page.date | date: '%b %d, %Y' }}</span>
-    </div>
+      <p class="f5 b black-50">{{ page.date | date: '%b %d, %Y' }}</p>
+      <div class="mt4 mt5-ns w-20 center" style="height:8px;background-image: -webkit-linear-gradient(45deg, {{ page.gradient }})"></div>
   </header>
 
   <div class="serif fadeInAmate" itemprop="articleBody">
