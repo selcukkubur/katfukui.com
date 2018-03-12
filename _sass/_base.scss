@@ -25,6 +25,8 @@ body {
   font-weight: $base-font-weight;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  font-feature-settings:"kern" 1;
+  font-kerning: normal;
   line-height: $base-line-height;
   color: $text-color;
   background-color: $background-color;
