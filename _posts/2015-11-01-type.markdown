@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Ontogenesis"
-date:   2015-11-01 12:37:36 -0800
+emoji: 🎨
+title:  "Ink typeforms"
 thumbnail: /images/type.png
 caption: "Print"
-category: work
+category: fun
 meta: {Type: Personal, Date: 2013, Awards: 2013 AIGA SF Enrichment Scholarship}
-intro: "As an exploration of form through matter manipulation, I set out to create typography with ink and water. By experimenting with different permutations of water viscosity and temperature, subtraction with an eyedropper, container volume, and ink density, I found harmony between the chemistry of ink and water."
+intro: "ONTOGENESIS: As an exploration of form through matter manipulation, I set out to create typography with ink and water. By experimenting with different permutations of water viscosity and temperature, subtraction with an eyedropper, container volume, and ink density, I found harmony between the chemistry of ink and water."
 ---
 {% include poststyles.md %}
 

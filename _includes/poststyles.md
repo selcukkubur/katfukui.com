@@ -1,5 +1,5 @@
 {% capture writing %}
-<div class="post-wrapper" markdown="1">
+<div class="measure center" markdown="1">
 {% endcapture %}
 
 {% capture end_block %}
