@@ -1,6 +1,6 @@
 ---
 layout: post
-emoji: 😎
+emoji: 🎨
 title:  "Ink typeforms"
 thumbnail: /images/type.png
 caption: "Print"
