@@ -10,6 +10,7 @@ title: Kat Fukui
 email: katherinefukui@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi, I'm Kat Fukui. Curious Product Designer and geeky cat lady.
+site_image: /_includes/icon-logo.svg
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://katfukui.com" # the base hostname & protocol for your site
 twitter_username: katfukui
