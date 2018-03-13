@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "GT Pressura";
-  src: url('/assets/fonts/gt-pressura/GT-Pressura-Mono-Light.eot'); /* IE9 Compat Modes */
-  src: url('/assets/fonts/gt-pressura/GT-Pressura-Mono-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/assets/fonts/gt-pressura/GT-Pressura-Mono-Light.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/assets/fonts/gt-pressura/GT-Pressura-Mono-Light.woff') format('woff'), /* Pretty Modern Browsers */
-         url('/assets/fonts/gt-pressura/GT-Pressura-Mono-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('http://katfukui.com/fonts/GT-Pressura-Mono-Light.eot'); /* IE9 Compat Modes */
+  src: url('http://katfukui.com/fonts/GT-Pressura-Mono-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('http://katfukui.com/fonts/GT-Pressura-Mono-Light.woff2') format('woff2'), /* Super Modern Browsers */
+         url('http://katfukui.com/fonts/GT-Pressura-Mono-Light.woff') format('woff'), /* Pretty Modern Browsers */
+         url('http://katfukui.com/fonts/GT-Pressura-Mono-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
 @mixin media-query($device) {
