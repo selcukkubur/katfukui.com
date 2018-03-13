@@ -3,7 +3,6 @@ layout: post
 emoji: 📓
 title:  "5 min/day"
 date:   2017-01-16 12:37:36 -0800
-category: thoughts
 permalink:   /thoughts/:title/
 intro: "A routine that I do every work day that keeps me productive and optimistic."
 gradient: "#E1AD9D, #FCDC69"
