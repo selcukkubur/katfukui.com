@@ -65,30 +65,6 @@ _custom.scss
 }
 
 
-// Site footer
-
-.footer-social {
-	.icon path {
-		fill: $white;
-	}
-}
-
-.social-media-list {
-  li {
-    img { vertical-align: middle; }
-
-    a {
-      padding-bottom: 0;
-
-      &:hover {
-        opacity: 0.6;
-        background-color: transparent;
-      }
-    }
-  }
-}
-
-
 // Apply a clearfix to an element.
 
 @mixin j-cf() {
