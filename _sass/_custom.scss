@@ -56,36 +56,12 @@ _custom.scss
 .about-image {
 	background: url(../images/kat.png) center;
 	background-size: cover;
-  height: 500px;
+  height: 384px;
 
 	@media (max-width: 700px) {
-		height: 350px;
+		height: 328px;
 		margin-bottom: $spacing-medium;
 	}
-}
-
-
-// Site footer
-
-.footer-social {
-	.icon path {
-		fill: $white;
-	}
-}
-
-.social-media-list {
-  li {
-    img { vertical-align: middle; }
-
-    a {
-      padding-bottom: 0;
-
-      &:hover {
-        opacity: 0.6;
-        background-color: transparent;
-      }
-    }
-  }
 }
 
 

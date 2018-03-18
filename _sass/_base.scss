@@ -48,22 +48,15 @@ em {
   font-family: $serif;
 }
 
-
 a {
   color: $text-color;
   text-decoration: underline;
-  cursor: pointer;
-
-  &:visited {
-    color: $text-color;
-  }
 
   &:hover {
-    text-decoration: none;
-    background-color: $yellow;
+    color: $brand-color;
+    transition: color .15s ease-in;
   }
 }
-
 
 
 /* Blockquotes */
