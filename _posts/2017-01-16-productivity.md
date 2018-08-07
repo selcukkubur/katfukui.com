@@ -32,10 +32,10 @@ It's awesome to feel those words at your fingertips, and I can literally see my 
 
 ### The right medium
 You can document in any way that you like:
-- Write and doodle your notes with [Fiftythree's Paper app](https://www.fiftythree.com/)
-- Use a tiny notebook
-- Fill out a pack of sticky notes
-- Use an app (I've tried [Canvas](https://usecanvas.com), [Letterspace](https://programmerbird.com/letterspace), [Evernote](https://evernote.com))
+* Write and doodle your notes with [Fiftythree's Paper app](https://www.fiftythree.com/)
+* Use a tiny notebook
+* Fill out a pack of sticky notes
+* Use an app (Currently using [Notion](https://www.notion.so), but have also used [iA Writer](https://ia.net/writer) and [Dropbox Paper](https://www.dropbox.com/paper))
 
 The important thing is **completing your journal right when you finish work**. Whether you jot down the thing as soon as you finish the task, or all at the end of the day, just DO IT! You'll thank yourself later. 😺
 {{ end-block }}
