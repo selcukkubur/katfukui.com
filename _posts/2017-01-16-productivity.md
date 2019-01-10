@@ -25,7 +25,7 @@ Staying productive is _really damn hard_. To-do lists easily stack up and collec
 I've found that jotting down important conversations, questions, and marinating thoughts with links to documents, conversations, and pull requests helps me jump back in the next day.
 
 ### Validating your work
-So I've got a log of my daily accomplishments and goals. How does self-validation play a role in keeping a journal? It may feel like a mundane chore, but the sum of every day's work reminds me that I'm growing everyday and that I SLAY.
+So I've got a log of my daily accomplishments and goals. How does self-validation play a role in keeping a journal? It may feel like a mundane chore, but the sum of every day's work reminds me that I really am growing and that I SLAY.
 
 The confidence I get from life logging and creating actionable items keeps me motivated and focused. Even the seemingly small victories is worth writing down, like...
 
@@ -40,7 +40,7 @@ You can document in any way that you like:
 * Fill out a pack of sticky notes
 * Use an app (Currently using [Notion](https://www.notion.so), but have also used [iA Writer](https://ia.net/writer) and [Dropbox Paper](https://www.dropbox.com/paper))
 
-For 2019, I'm trying out a table/spreadsheet in [Notion](https://www.notion.so) with tags like "social," "exercise," and "wfh" to better understand my work and personal behavior! I'll be sure to post a year in review in 2020.
+For 2019, I'm trying out a table/spreadsheet in [Notion](https://www.notion.so) with tags like "social," "exercise," and "wfh" to better understand my work and personal behavior! I'm hoping to better hold myself accountable for self-care and vacation with this method. I'll be sure to post a year in review in 2020.
 
 The important thing is **completing your journal right when you finish work**. Whether you jot down the thing as soon as you finish the task, or all at the end of the day, just DO IT! You'll thank yourself later. 😺
 {{ end-block }}
