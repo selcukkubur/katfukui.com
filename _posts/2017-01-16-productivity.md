@@ -37,6 +37,11 @@ You can document in any way that you like:
 * Fill out a pack of sticky notes
 * Use an app (Currently using [Notion](https://www.notion.so), but have also used [iA Writer](https://ia.net/writer) and [Dropbox Paper](https://www.dropbox.com/paper))
 
+For 2019, I'm trying out a bullet journal in [Notion](https://www.notion.so) with monthly, weekly, daily tracking! I'm hoping to better hold myself accountable for self-care and vacation with this method. I'll be sure to post a year in review in 2020.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I love the datas, especially about myself 😂 So I&#39;m working on my bullet journal flex with <a href="https://twitter.com/NotionHQ?ref_src=twsrc%5Etfw">@NotionHQ</a> to keep better track of macro -&gt; micro goals, habit tracking, and retrospectives ✨ <a href="https://t.co/HkkhvBQ537">pic.twitter.com/HkkhvBQ537</a></p>&mdash; kat fukui (@katfukui) <a href="https://twitter.com/katfukui/status/1085248266818613248?ref_src=twsrc%5Etfw">January 15, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 The important thing is **completing your journal right when you finish work**. Whether you jot down the thing as soon as you finish the task, or all at the end of the day, just DO IT! You'll thank yourself later. 😺
 {{ end-block }}
 {{ end-block }}
