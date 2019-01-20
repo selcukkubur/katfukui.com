@@ -11,24 +11,26 @@ layout: index
   </div>
 </div>
 
-<div class="pa4 ph6-l clearfix" id="all" style="line-height: 2.0">
-  <ul class="list mb1 mb6-ns">
-    <li class="f4 f2-m f1-l dib di-ns mb4 mb0-ns">
-      <a href="https://github.com/blog/2380-new-community-tools">Community tools</a> <span class="f4 f3-ns brand">2017</span>
-    </li>
+<div class="pa3 pa4-m pa5-l clearfix">
+  <h2 class="relative z-2 nr4 fl w-100 w-20-ns f2 f1-ns mt0 tr-ns">Speaking</h2>
+  <ul class="bg-brand-pink fl w-100 w-80-ns list pa3 pa5-ns">
+    {% for post in site.posts %}
+      {% if post.speaking_event %}
+        <li class="dib mb4">
+          <div class="f4 f3-ns">{{ post.date | date: '%Y' }} <span class="brand">/</span> {{ post.speaking_event }}</div>
+          <a class="f3 f2-ns brand link dim" href="{{ post.link_url }}">{{ post.title }}</a>
+          <p class="brand">{{ post.intro }}</p>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
 
-    <div class="black-20 f1 dn di-ns mh2">/</div>
 
-    <li class="f4 f2-m f1-l dib di-ns mb4 mb0-ns">
-      <a href="https://youtu.be/TlQcwNnqpnE">Power of the open source community</a> <span class="f4 f3-ns brand">2017</span>
-    </li>
-
-    <div class="black-20 f1 dn di-ns mh2">/</div>
-
-    <li class="f4 f2-m f1-l dib di-ns mb4 mb0-ns">
+    <!-- <li class="f4 f2-m f1-l dib di-ns mb4 mb0-ns">
       <a href="https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e#.ovslcv5t7">Design portfolio workflow</a> <span class="f4 f3-ns brand">2016</span>
     </li>
 
     {% include thoughts-content.html %}
-  </ul>
+  </ul> -->
 </div>

@@ -1,6 +1,5 @@
 ---
 layout: post
-emoji: ☕
 title: "Coffee at home"
 intro: "How I got into making pourovers at home and how you can, too! ☕"
 gradient: "#cdecff, #CFBAE1"
