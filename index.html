@@ -12,25 +12,31 @@ layout: index
 </div>
 
 <div class="pa3 pa4-m pa5-l clearfix">
-  <h2 class="relative z-2 nr4 fl w-100 w-20-ns f2 f1-ns mt0 tr-ns">Speaking</h2>
-  <ul class="bg-brand-pink fl w-100 w-80-ns list pa3 pa5-ns">
+  <h2 class="relative z-2 nr4 fl w-100 w-20-ns f2 f1-ns mt0 mb3 tr-ns">Speaking</h2>
+  <ul class="bg-brand-pink fl w-100 w-80-ns list pa3 pa6-ns pb5-ns mb4 mb6-ns">
     {% for post in site.posts %}
       {% if post.speaking_event %}
-        <li class="dib mb4">
+        <li class="dib mb4 mb5-ns">
           <div class="f4 f3-ns">{{ post.date | date: '%Y' }} <span class="brand">/</span> {{ post.speaking_event }}</div>
-          <a class="f3 f2-ns brand link dim" href="{{ post.link_url }}">{{ post.title }}</a>
-          <p class="brand">{{ post.intro }}</p>
+          <a class="lh-title f3 f2-ns brand link dim" href="{{ post.link_url }}">{{ post.title }}</a>
+          <div class="mt3 brand measure-wide">{{ post.intro }}</div>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h2 class="relative z-2 nr4 fl w-100 w-20-ns f2 f1-ns mt0 mb3 tr-ns">Writing</h2>
+  <ul class="bg-brand-pink fl w-100 w-80-ns list pa3 pa6-ns pb5-ns">
+    {% for post in site.posts %}
+      {% if post.permalink %}
+        <li class="dib mb4 mb5-ns">
+          <div class="f4 f3-ns">{{ post.date | date: '%Y' }}</div>
+          <a class="lh-title f3 f2-ns brand link dim" href="href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <div class="mt3 brand measure-wide">{{ post.intro }}</div>
         </li>
       {% endif %}
     {% endfor %}
   </ul>
 </div>
 
-
-    <!-- <li class="f4 f2-m f1-l dib di-ns mb4 mb0-ns">
-      <a href="https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e#.ovslcv5t7">Design portfolio workflow</a> <span class="f4 f3-ns brand">2016</span>
-    </li>
-
-    {% include thoughts-content.html %}
-  </ul> -->
 </div>
