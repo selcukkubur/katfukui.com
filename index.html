@@ -20,16 +20,16 @@ layout: index
     </ul>
 
     <h2 class="f2 f1-ns mt0 mb3">Writing</h2>
-    <ul class="list ph4-ns pb4-ns clearfix">
+    <div class="ph4-ns pb4-ns">
       {% for post in site.posts %}
-        {% if post.permalink %}
-          <li class="fl w-100 w-50-ns pa4">
+        {% if post.permalink or post.external_post %}
+          <article class="dib w-100 w-80-m w-40-l pa3 pa4-ns">
             <div class="f4 f3-ns brand">{{ post.date | date: '%Y' }}</div>
-            <a class="lh-title f3 f2-ns" href="href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a class="lh-title f3 f2-l" href="{% if post.link_url and post.external_post %}{{ post.link_url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
             <div class="mt3 measure-wide">{{ post.intro }}</div>
-          </li>
+          </article>
         {% endif %}
       {% endfor %}
-    </ul>
+    </div>
   </div>
 </div>
