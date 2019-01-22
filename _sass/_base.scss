@@ -9,18 +9,20 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-// h1, h2, h3, h4, h5, h6 {
-//   margin-top: 0;
-//   font-weight: 100;
-// }
+h1, h2, h3, h4, h5, h6 {
+  //margin-top: 0;
+  font-weight: $base-font-weight; // bc I only have Favorit regular
+}
 
 .post-body {
   h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
+    font-family: $monospace;
+    font-weight: bold;
   }
 
   strong, b {
-    font-weight: 700;
+    font-weight: bold;
+    font-family: $monospace;
   }
 }
 
@@ -36,12 +38,12 @@ body {
   font-weight: $base-font-weight;
   font-family: $base-font-family;
   font-size: $base-font-size;
-  font-feature-settings:"kern" 1;
-  font-kerning: normal;
+  //font-feature-settings:"kern" 1;
+  //font-kerning: normal;
   line-height: $base-line-height;
   color: $text-color;
   background-color: $background-color;
-  letter-spacing: $sans-serif-letter-spacing;
+  //letter-spacing: $sans-serif-letter-spacing;
 
   @include media-query($mobile) {
     font-size: 1rem;
@@ -49,7 +51,7 @@ body {
 }
 
 em {
-  font-family: $serif;
+  font-family: $sans-serif;
 }
 
 a {

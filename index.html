@@ -11,7 +11,7 @@ layout: index
       {% for post in site.posts %}
         {% if post.speaking_event %}
           <li class="dib mb4 mb5-ns">
-            <div class="f4 f3-ns">{{ post.date | date: '%Y' }} <span class="brand">/</span> {{ post.speaking_event }}</div>
+            <div class="f4 f3-ns monospace">{{ post.date | date: '%Y' }} <span class="brand">/</span> {{ post.speaking_event }}</div>
             <a class="lh-title f3 f2-ns brand link dim" href="{{ post.link_url }}">{{ post.title }}</a>
             <div class="mt3 brand measure-wide">{{ post.intro }}</div>
           </li>
@@ -24,7 +24,7 @@ layout: index
       {% for post in site.posts %}
         {% if post.permalink or post.external_post %}
           <article class="dib w-100 w-80-m w-40-l pa3 pa4-ns">
-            <div class="f4 f3-ns brand">{{ post.date | date: '%Y' }}</div>
+            <div class="f4 f3-ns brand monospace">{{ post.date | date: '%Y' }}</div>
             <a class="lh-title f3 f2-l" href="{% if post.link_url and post.external_post %}{{ post.link_url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
             <div class="mt3 measure-wide">{{ post.intro }}</div>
           </article>

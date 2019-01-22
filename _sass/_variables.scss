@@ -1,10 +1,10 @@
 // Typography
-$serif:            "PT Serif", serif;
+$sans-serif:       "Favorit", sans-serif;
 $monospace:        "Roboto Mono", monospace;
-$base-font-family: $monospace;
+$base-font-family: $sans-serif;
 $title-font:       $monospace;
 $base-font-size:   1.25rem;
-$base-font-weight: 300;
+$base-font-weight: 400;
 $base-line-height: 1.5;
 $sans-serif-letter-spacing: -0.037em;
 $serif-letter-spacing: -0.01em;

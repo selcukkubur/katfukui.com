@@ -5,3 +5,4 @@ _site
 assets/fonts
 config.codekit
 images/.DS_Store
+.DS_Store
