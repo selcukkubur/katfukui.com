@@ -1,0 +1,11 @@
+/assets/fonts/favorit-regular.woff
+  Access-Control-Allow-Origin: *
+  Content-Type: application/font-woff
+
+/assets/fonts/favorit-regular.woff2
+  Access-Control-Allow-Origin: *
+  Content-Type: application/font-woff2
+
+/assets/fonts/favorit-regular.ttf
+  Access-Control-Allow-Origin: *
+  Content-Type: application/font-ttf

@@ -23,3 +23,5 @@ permalink:   /:title/
 
 # Build settings
 markdown: kramdown
+
+include: ["_headers"]
