@@ -38,7 +38,7 @@ If you're just getting started with making pourovers at home, here's what I reco
 </div>
 
 {{ writing }}
-  <h3>Also important...</h3>
+  <h2>Also important...</h2>
 
   <div class="flex flex-wrap flex-row mb3 mb4-l">
     {% assign more_essentials = site.data.coffee.items | where: "tag", "essential_plus" %}

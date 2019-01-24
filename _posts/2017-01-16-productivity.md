@@ -13,17 +13,17 @@ gradient: "#E1AD9D, #FCDC69"
 
 **Last updated**: Jan 9, 2019
 
-### Write. Every. Day.
+## Write. Every. Day.
 Staying productive is _really damn hard_. To-do lists easily stack up and collect dust. They become an intimidating reminder that we aren't finishing what we set out to do. For the past 9 months, I've found that the key to my productivity lies in a combination of rigorous documentation of my day-to-day and **validation**.
 
-#### Here's what I make sure I do by the end of every work day:
+### Here's what I make sure I do by the end of every work day:
 
 1. Take 5 minutes to log everything I did
 2. Write a to-do list for tomorrow with the most outstanding task at top
 
 I've found that jotting down important conversations, questions, and marinating thoughts with links to documents, conversations, and pull requests helps me jump back in the next day.
 
-### Validating your work
+## Validating your work
 So I've got a log of my daily accomplishments and goals. How does self-validation play a role in keeping a journal? It may feel like a mundane chore, but the sum of every day's work reminds me that I really am growing and that I SLAY.
 
 The confidence I get from life logging and creating actionable items keeps me motivated and focused. Even the seemingly small victories is worth writing down, like...
@@ -32,7 +32,7 @@ The confidence I get from life logging and creating actionable items keeps me mo
 
 It's awesome to feel those words at your fingertips, and I can literally see my growth on digital paper. The collection of logs also come in handy during **performance reviews**, so you're not scrambling to remember the details.
 
-### The right medium
+## The right medium
 You can document in any way that you like:
 * Write and doodle your notes with [Fiftythree's Paper app](https://www.fiftythree.com/)
 * Use a [beautiful notebook](https://www.baronfig.com/products/shopconfidant)
