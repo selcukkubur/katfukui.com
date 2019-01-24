@@ -20,7 +20,7 @@ layout: index
     </ul>
 
     <h2 class="f2 f1-ns mt0 mb3">Writing</h2>
-    <div class="ph4-ns pb4">
+    <div class="ph4-ns">
       {% for post in site.posts %}
         {% if post.permalink or post.external_post %}
           <article class="dib v-top w-100 w-80-m w-40-l pa3 pa4-ns">
@@ -31,5 +31,9 @@ layout: index
         {% endif %}
       {% endfor %}
     </div>
+  </div>
+
+  <div class="center w-50 mb4">
+    <div class="contain h4" style="background:url(/images/jiggles.gif) no-repeat center;"></div>
   </div>
 </div>
