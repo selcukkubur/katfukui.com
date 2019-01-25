@@ -3,8 +3,8 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="ph4 ph0-ns pt5 measure center">
-    <h1 class="f1 lh-title mb3" itemprop="headline">{{ page.title }}</h1>
+  <header class="w-100 ph4 ph0-ns pv4 pv5-ns tc bg-brand-pink brand">
+    <h1 class="f2 f1-ns lh-title mb3 measure" itemprop="headline">{{ page.title }}</h1>
 
       {% if page.intro and page.meta %}
         <div class="clearfix">
@@ -22,13 +22,11 @@ layout: default
         </div>
       {% else %}
         <p class="f5 f4-ns">{{ page.intro }}</p>
-        <p class="f5 black-50">{{ page.date | date: '%b %d, %Y' }}</p>
+        <p class="f5 black-80 monospace">{{ page.date | date: '%b %d, %Y' }}</p>
       {% endif %}
-
-      <div class="mt4 mt5-ns w-20 center" style="height:8px;background-image: -webkit-linear-gradient(45deg, {{ page.gradient }})"></div>
   </header>
 
-  <div class="serif fadeInAmate post-body" itemprop="articleBody">
+  <div class="fadeInAmate post-body" itemprop="articleBody">
     {{ content }}
   </div>
 

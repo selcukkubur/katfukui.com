@@ -4,18 +4,16 @@ _custom.scss
 
 // Typography
 
-.serif {
-  font-family: $serif;
-  letter-spacing: $serif-letter-spacing;
-}
+// .serif {
+//   font-family: $serif;
+//   letter-spacing: $serif-letter-spacing;
+// }
 
-.monospace {
-  font-family: $monospace;
-}
+.sans-serif { font-family: $sans-serif !important; }
 
-.no-hover:hover {
-  background-color: transparent;
-}
+.monospace { font-family: $monospace !important; }
+
+.no-hover:hover { background-color: transparent !important; }
 
 
 // COMPONENTS
@@ -90,6 +88,8 @@ _custom.scss
 .bg-dusty-pink { background-color: $dusty-pink; }
 
 .bg-teal { background-color: $teal; }
+
+.bg-brand-pink { background-color: $brand-pink; }
 
 
 // Colors

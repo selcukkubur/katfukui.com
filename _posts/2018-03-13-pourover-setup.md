@@ -1,6 +1,5 @@
 ---
 layout: post
-emoji: ☕
 title: "Coffee at home"
 intro: "How I got into making pourovers at home and how you can, too! ☕"
 gradient: "#cdecff, #CFBAE1"
@@ -29,9 +28,9 @@ If you're just getting started with making pourovers at home, here's what I reco
           <div class="contain h3 h4-l mb3 mb0-l br2" style="background:url({{ item.img }}) no-repeat center"></div>
         </div>
         <div class="db w-100 w-70-l">
-          <a href="{{ item.link }}"><h1 class="serif f5 f3-l mb0">{{ item.name }}</h1></a>
-          <span class="Dot bg-light-blue"></span> <span class="f6 black-50 b dib">{{ item.type }}</span>
-          <p class="serif f5 lh-copy measure mt2 mid-gray mb1">{{ item.note }}</p>
+          <a href="{{ item.link }}"><h1 class="f5 f3-l mb0 sans-serif">{{ item.name }}</h1></a>
+          <span class="Dot bg-light-blue"></span> <span class="monospace f6 black-50 b dib">{{ item.type }}</span>
+          <p class="f5 lh-copy measure mt2 mid-gray mb1">{{ item.note }}</p>
         </div>
       </div>
     </article>
@@ -39,7 +38,7 @@ If you're just getting started with making pourovers at home, here's what I reco
 </div>
 
 {{ writing }}
-  <h3>Also important...</h3>
+  <h2>Also important...</h2>
 
   <div class="flex flex-wrap flex-row mb3 mb4-l">
     {% assign more_essentials = site.data.coffee.items | where: "tag", "essential_plus" %}
@@ -50,8 +49,8 @@ If you're just getting started with making pourovers at home, here's what I reco
             <div class="contain h3 h4-l mb3 mb0-l br2" style="background:url({{ item.img }}) no-repeat center"></div>
           </div>
           <div class="db w-100 w-70-l">
-            <a href="{{ item.link }}"><h1 class="serif f5 f4-l mb0">{{ item.name }}</h1></a>
-            <p class="serif f5 lh-copy measure mt2 mid-gray mb1">{{ item.note }}</p>
+            <a href="{{ item.link }}"><h1 class="f5 f4-l mb0">{{ item.name }}</h1></a>
+            <p class="f5 lh-copy measure mt2 mid-gray mb1">{{ item.note }}</p>
           </div>
         </div>
       </article>

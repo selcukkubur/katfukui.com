@@ -1,0 +1,8 @@
+[build]
+  publish = "_site"
+
+[[redirects]]
+  from = "http://katfukui-com.netlify.com/"
+  to = "http://www.katfukui.com"
+  status = 301
+  force = true
