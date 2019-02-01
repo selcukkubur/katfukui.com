@@ -12,11 +12,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Hi, I'm Kat Fukui. Product Designer building inclusive communities.
 site_image: /images/site-image.png
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://katfukui.com" # the base hostname & protocol for your site
+url: "https://www.katfukui.com" # the base hostname & protocol for your site
 twitter_username: katfukui
 github_username:  katmeister
 dribbble_username: katfukui
-repo: https://github.com/katmeister/my-site
+repo: https://github.com/katmeister
 
 # http://jekyllrb.com/docs/permalinks/
 permalink:   /:title/
