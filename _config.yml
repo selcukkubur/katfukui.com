@@ -6,17 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Kat Fukui
-email: katherinefukui@gmail.com
+title: Selçuk KUBUR
+email: selcukkubur@hotmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I'm Kat Fukui. Product Designer building inclusive communities.
+  Hi, I'm Selcuk. Senior DevOps Engineer at Emlakjet.
 site_image: /images/site-image.png
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://katfukui.com" # the base hostname & protocol for your site
-twitter_username: katfukui
-github_username:  katmeister
+url: "http://selcukkubur.com" # the base hostname & protocol for your site
+twitter_username: codeless33
+github_username:  selcukkubur
 dribbble_username: katfukui
-repo: https://github.com/katmeister/my-site
+repo: https://github.com/selcukkubur/selcukkubur.com
 
 # http://jekyllrb.com/docs/permalinks/
 permalink:   /:title/
