@@ -10,4 +10,4 @@ My corner on the web , published articles and thougts
 
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bf77513d-1018-4467-bb44-42099e05b439/deploy-status)](https://app.netlify.com/sites/selcukkubur/deploys)
+   [![Netlify Status](https://api.netlify.com/api/v1/badges/bf77513d-1018-4467-bb44-42099e05b439/deploy-status)](https://app.netlify.com/sites/selcukkubur/deploys)
