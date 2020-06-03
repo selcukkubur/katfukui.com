@@ -2,7 +2,7 @@
   publish = "_site"
 
 [[redirects]]
-  from = "http://selcukkubur.netlify.com/"
+  from = "http://selcukkubur.netlify.app/"
   to = "http://www.selcukkubur.com"
   status = 301
   force = true
