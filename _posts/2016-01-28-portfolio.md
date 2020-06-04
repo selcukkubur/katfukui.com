@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Design portfolio workflow"
-intro: "A guide to building and deploying a portfolio, all from the command line"
+title: "Terminate Costs on AWS"
+intro: "A guide to terminating resource on aws with EC2 Scheduler"
 permalink: null
 external_post: true
-link_url: "https://medium.com/@katfukui/the-design-portfolio-workflow-a94030d0b39e#.ovslcv5t7"
+link_url: "https://medium.com/@selcukkubur/cost-terminator-for-aws-ec2-9d26b352d6d3"
 ---
